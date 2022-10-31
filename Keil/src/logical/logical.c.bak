@@ -1,0 +1,155 @@
+// #INDEX# ======================================================================================================
+// Title .........: logical - Общая логика программы.
+// Arch ..........: GD32F130C8C6, GD32F130C6C6
+// Author ........: GreenBytes ( https://vk.com/greenbytes )
+// Version .......: 3.5.0.0
+// ==============================================================================================================
+
+#include "gd32f1x0.h"
+#include "logical.h"
+#include "../framework/board/board.h"
+#include "../framework/framework.h"
+#include "../device/device.h"
+#include "../config/config.h"
+#include "../dataPackage/dataPackage.h"
+
+#ifndef DEBUG_MODE
+    #include "mode/work/work.h"
+    #include "mode/slave/slave.h"
+    #include "mode/calibration/calibration.h"
+#else
+    #include "mode/debug/debug.h"
+#endif
+
+logical_t logical;
+
+extern config_t config;
+
+/* Инициализация */
+void logic_init(void) {
+    uint8_t button;
+    /* Включение платы */
+    devTurn(ON);
+    /*  */
+    #ifndef DEBUG_MODE
+        button = devPress();
+        /* Включение устройства */
+        switch ( button ) {
+            /* Ведомый режим */
+            case BUTTON_NONE:
+                logicSound          (2);
+                slave_init          ();
+                break;
+            /* Рабочий режим */
+            case BUTTON_OK:
+                logicSound          (1);
+                work_init           ();
+                break;
+            /* Режим Калибровки */
+            case BUTTON_HOLD:
+                logicSound          (4);
+                calibration_init    ();
+                break;
+        };
+        logical.mode = button;
+    #else
+        /* Включение устройства (режим отладки) */
+        logicSound(5);
+        debug_mode_init();
+    #endif
+	logical.time	= millis();
+}
+
+void logic_loop(void) {
+    #ifndef DEBUG_MODE
+        switch (logical.mode) {
+            case LOGICAL_MODE_SLAVE:
+                slave_loop();
+                logicVoltageControl();
+                break;
+            case LOGICAL_MODE_WORK:
+                work_loop();
+                logicVoltageControl();
+                break;
+            case LOGICAL_MODE_CALIBRATION:
+                calibration_loop();
+                break;
+        }
+    #else
+        debug_mode_loop();
+    #endif
+    logicSoundDevice();
+    fwdgt_counter_reload();
+}
+
+/* Контроль напряжения, оповещение, отключение платы */
+void logicVoltageControl(void) {
+    uint16_t volt = devVoltage();
+	/*  */
+	if ((volt <= config.voltageMin) && ((millis() - logical.time) >= 500)) {
+		logicSoundTime(500, 100);
+        /* Отключаем двигатель */
+        engineEnable(FALSE);
+		return;
+	}
+	
+	if ((volt <= config.voltageMid) && ((millis() - logical.time) >= 500)) {
+		logicSoundTime(500, 250);
+		return;
+	}
+
+	if ((volt > config.voltageMax) && ((millis() - logical.time) >= 500)) {
+		logicSoundTime(500, 1000);
+		return;
+	}
+	
+	logical.time	= millis();
+}
+
+void logicTurnigOff(void) {
+    uint8_t button = devPress();
+    if (button == BUTTON_OK) {
+		delay(100);
+		dpTurn(UART1);
+        logicSound(2);
+        devTurn(OFF);
+    }
+}
+
+void logicSound(uint8_t nSound) {
+    uint8_t icount;
+    buzzerTone(0);
+    for (icount=0;icount<nSound;icount++) {
+        buzzerTone(0);
+        delay(100);
+        buzzerTone(500);
+        delay(20);
+        buzzerTone(0);
+    }
+}
+
+void logicSoundTime(uint32_t tone, uint32_t mstime) {
+    if (logical.sound.busy == TRUE) return;
+    logical.sound.busy      = TRUE;
+    logical.sound.enable    = FALSE;
+    logical.sound.mstime    = mstime;
+    logical.sound.time      = millis();
+    buzzerTone(tone);
+}
+
+void logicSoundDevice(void) {
+    if (logical.sound.busy == FALSE) return;
+    if (logical.sound.enable == FALSE) {
+        if ((millis() - logical.sound.time) > logical.sound.mstime) {
+            logical.sound.time      = millis();
+            logical.sound.enable    = TRUE;
+            buzzerTone(0);
+        }
+    }else{
+        if ((millis() - logical.sound.time) > logical.sound.mstime) logical.sound.busy = FALSE;
+    }
+}
+
+uint8_t logicRemoteDevice(void) {
+    return logical.remote;
+}

@@ -1,0 +1,928 @@
+Dependencies for Project 'KickScooter', Target 'GreenBytes': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (.\src\main.c)(0x6320A72C)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I.\RTE\_GreenBytes-IC:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc-IC:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include-D__UVISION_VERSION="535" -D_RTE_ -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -D_RTE_-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0.h)(0x5DAEA934)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x60D42F32)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602569CE)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D42F32)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D42F32)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D42F32)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D42F32)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\system_gd32f1x0.h)(0x5DAEA934)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0_libopt.h)(0x5DB6F2DA)
+I (.\RTE\_GreenBytes\RTE_Components.h)(0x6320A72C)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_adc.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_dbg.h)(0x5DB6F260)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_dma.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_fmc.h)(0x5DB6EEF2)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_gpio.h)(0x5DAEA934)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_syscfg.h)(0x5DB6F260)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_i2c.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_fwdgt.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_pmu.h)(0x5DB6F260)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_rcu.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_timer.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_usart.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_wwdgt.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_misc.h)(0x5DAEA934)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_opa.h)(0x5DB6F260)
+I (src\framework/framework.h)(0x6320A72C)
+I (src\framework/board/board.h)(0x6328BAAA)
+I (src\framework/board/../../BLDC/bldc.h)(0x632894DC)
+I (src\framework/board/../../BLDC/../framework/board/board.h)(0x6328BAAA)
+I (src\framework/board/../../BLDC/../framework/board/../../BLDC/bldc.h)(0x632894DC)
+I (src\framework/board/../../BLDC/../framework/board/0x1A.h)(0x6323739E)
+I (src\framework/board/../../BLDC/../framework/board/CPU/GD32F130C8T6.h)(0x6320A72C)
+I (src\framework/board/../../BLDC/../framework/framework.h)(0x6320A72C)
+I (src\framework/board/../../BLDC/../device/device.h)(0x6320A72C)
+I (src\framework/board/../../BLDC/../device/../framework/board/board.h)(0x6328BAAA)
+I (src\framework/board/../../BLDC/../device/../framework/board/0x1A.h)(0x6323739E)
+I (src\framework/board/../../BLDC/../device/../framework/board/CPU/GD32F130C8T6.h)(0x6320A72C)
+I (src\framework/board/../../BLDC/../device/../config/config.h)(0x6320A72C)
+I (src\framework/board/../../BLDC/../device/../config/../device/device.h)(0x6320A72C)
+I (src\framework/board/0x1A.h)(0x6323739E)
+I (src\framework/board/CPU/GD32F130C8T6.h)(0x6320A72C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x602569C6)
+I (src\logical/logical.h)(0x6320A72C)
+I (src\logical/../framework/board/board.h)(0x6328BAAA)
+I (src\logical/../framework/board/0x1A.h)(0x6323739E)
+I (src\logical/../framework/board/CPU/GD32F130C8T6.h)(0x6320A72C)
+F (.\src\logical\logical.c)(0x6320A72C)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I.\RTE\_GreenBytes-IC:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc-IC:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include-D__UVISION_VERSION="535" -D_RTE_ -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -D_RTE_-o .\objects\logical.o --omf_browse .\objects\logical.crf --depend .\objects\logical.d)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0.h)(0x5DAEA934)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x60D42F32)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602569CE)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D42F32)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D42F32)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D42F32)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D42F32)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\system_gd32f1x0.h)(0x5DAEA934)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0_libopt.h)(0x5DB6F2DA)
+I (.\RTE\_GreenBytes\RTE_Components.h)(0x6320A72C)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_adc.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_dbg.h)(0x5DB6F260)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_dma.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_fmc.h)(0x5DB6EEF2)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_gpio.h)(0x5DAEA934)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_syscfg.h)(0x5DB6F260)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_i2c.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_fwdgt.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_pmu.h)(0x5DB6F260)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_rcu.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_timer.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_usart.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_wwdgt.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_misc.h)(0x5DAEA934)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_opa.h)(0x5DB6F260)
+I (src\logical\logical.h)(0x6320A72C)
+I (src\logical\../framework/board/board.h)(0x6328BAAA)
+I (src\logical\../framework/board/../../BLDC/bldc.h)(0x632894DC)
+I (src\logical\../framework/board/../../BLDC/../framework/board/board.h)(0x6328BAAA)
+I (src\logical\../framework/board/../../BLDC/../framework/board/../../BLDC/bldc.h)(0x632894DC)
+I (src\logical\../framework/board/../../BLDC/../framework/board/0x1A.h)(0x6323739E)
+I (src\logical\../framework/board/../../BLDC/../framework/board/CPU/GD32F130C8T6.h)(0x6320A72C)
+I (src\logical\../framework/board/../../BLDC/../framework/framework.h)(0x6320A72C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x602569C6)
+I (src\logical\../framework/board/../../BLDC/../device/device.h)(0x6320A72C)
+I (src\logical\../framework/board/../../BLDC/../device/../framework/board/board.h)(0x6328BAAA)
+I (src\logical\../framework/board/../../BLDC/../device/../framework/board/0x1A.h)(0x6323739E)
+I (src\logical\../framework/board/../../BLDC/../device/../framework/board/CPU/GD32F130C8T6.h)(0x6320A72C)
+I (src\logical\../framework/board/../../BLDC/../device/../config/config.h)(0x6320A72C)
+I (src\logical\../framework/board/../../BLDC/../device/../config/../device/device.h)(0x6320A72C)
+I (src\logical\../framework/board/0x1A.h)(0x6323739E)
+I (src\logical\../framework/board/CPU/GD32F130C8T6.h)(0x6320A72C)
+I (src\logical\../dataPackage/dataPackage.h)(0x6320A72C)
+I (src\logical\../dataPackage/../framework/board/board.h)(0x6328BAAA)
+I (src\logical\../dataPackage/../framework/board/0x1A.h)(0x6323739E)
+I (src\logical\../dataPackage/../framework/board/CPU/GD32F130C8T6.h)(0x6320A72C)
+I (src\logical\mode/work/work.h)(0x6320A72C)
+I (src\logical\mode/slave/slave.h)(0x6320A72C)
+I (src\logical\mode/calibration/calibration.h)(0x6320A72C)
+I (src\logical\mode/calibration/../../../framework/board/board.h)(0x6328BAAA)
+I (src\logical\mode/calibration/../../../framework/board/0x1A.h)(0x6323739E)
+I (src\logical\mode/calibration/../../../framework/board/CPU/GD32F130C8T6.h)(0x6320A72C)
+F (.\src\logical\logical.h)(0x6320A72C)()
+F (.\src\logical\mode\calibration\calibration.c)(0x6320A72C)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I.\RTE\_GreenBytes-IC:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc-IC:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include-D__UVISION_VERSION="535" -D_RTE_ -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -D_RTE_-o .\objects\calibration.o --omf_browse .\objects\calibration.crf --depend .\objects\calibration.d)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0.h)(0x5DAEA934)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x60D42F32)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602569CE)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D42F32)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D42F32)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D42F32)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D42F32)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\system_gd32f1x0.h)(0x5DAEA934)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0_libopt.h)(0x5DB6F2DA)
+I (.\RTE\_GreenBytes\RTE_Components.h)(0x6320A72C)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_adc.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_dbg.h)(0x5DB6F260)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_dma.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_fmc.h)(0x5DB6EEF2)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_gpio.h)(0x5DAEA934)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_syscfg.h)(0x5DB6F260)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_i2c.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_fwdgt.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_pmu.h)(0x5DB6F260)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_rcu.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_timer.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_usart.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_wwdgt.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_misc.h)(0x5DAEA934)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_opa.h)(0x5DB6F260)
+I (src\logical\mode\calibration\calibration.h)(0x6320A72C)
+I (src\logical\mode\calibration\../../../framework/board/board.h)(0x6328BAAA)
+I (src\logical\mode\calibration\../../../framework/board/../../BLDC/bldc.h)(0x632894DC)
+I (src\logical\mode\calibration\../../../framework/board/../../BLDC/../framework/board/board.h)(0x6328BAAA)
+I (src\logical\mode\calibration\../../../framework/board/../../BLDC/../framework/board/../../BLDC/bldc.h)(0x632894DC)
+I (src\logical\mode\calibration\../../../framework/board/../../BLDC/../framework/board/0x1A.h)(0x6323739E)
+I (src\logical\mode\calibration\../../../framework/board/../../BLDC/../framework/board/CPU/GD32F130C8T6.h)(0x6320A72C)
+I (src\logical\mode\calibration\../../../framework/board/../../BLDC/../framework/framework.h)(0x6320A72C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x602569C6)
+I (src\logical\mode\calibration\../../../framework/board/../../BLDC/../device/device.h)(0x6320A72C)
+I (src\logical\mode\calibration\../../../framework/board/../../BLDC/../device/../framework/board/board.h)(0x6328BAAA)
+I (src\logical\mode\calibration\../../../framework/board/../../BLDC/../device/../framework/board/0x1A.h)(0x6323739E)
+I (src\logical\mode\calibration\../../../framework/board/../../BLDC/../device/../framework/board/CPU/GD32F130C8T6.h)(0x6320A72C)
+I (src\logical\mode\calibration\../../../framework/board/../../BLDC/../device/../config/config.h)(0x6320A72C)
+I (src\logical\mode\calibration\../../../framework/board/../../BLDC/../device/../config/../device/device.h)(0x6320A72C)
+I (src\logical\mode\calibration\../../../framework/board/0x1A.h)(0x6323739E)
+I (src\logical\mode\calibration\../../../framework/board/CPU/GD32F130C8T6.h)(0x6320A72C)
+I (src\logical\mode\calibration\../../../logical/logical.h)(0x6320A72C)
+I (src\logical\mode\calibration\../../../logical/../framework/board/board.h)(0x6328BAAA)
+I (src\logical\mode\calibration\../../../logical/../framework/board/0x1A.h)(0x6323739E)
+I (src\logical\mode\calibration\../../../logical/../framework/board/CPU/GD32F130C8T6.h)(0x6320A72C)
+F (.\src\logical\mode\calibration\calibration.h)(0x6320A72C)()
+F (.\src\logical\mode\debug\debug.c)(0x6320A72C)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I.\RTE\_GreenBytes-IC:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc-IC:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include-D__UVISION_VERSION="535" -D_RTE_ -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -D_RTE_-o .\objects\debug.o --omf_browse .\objects\debug.crf --depend .\objects\debug.d)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0.h)(0x5DAEA934)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x60D42F32)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602569CE)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D42F32)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D42F32)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D42F32)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D42F32)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\system_gd32f1x0.h)(0x5DAEA934)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0_libopt.h)(0x5DB6F2DA)
+I (.\RTE\_GreenBytes\RTE_Components.h)(0x6320A72C)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_adc.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_dbg.h)(0x5DB6F260)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_dma.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_fmc.h)(0x5DB6EEF2)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_gpio.h)(0x5DAEA934)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_syscfg.h)(0x5DB6F260)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_i2c.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_fwdgt.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_pmu.h)(0x5DB6F260)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_rcu.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_timer.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_usart.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_wwdgt.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_misc.h)(0x5DAEA934)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_opa.h)(0x5DB6F260)
+I (src\logical\mode\debug\debug.h)(0x6320A72C)
+I (src\logical\mode\debug\../../../framework/board/board.h)(0x6328BAAA)
+I (src\logical\mode\debug\../../../framework/board/../../BLDC/bldc.h)(0x632894DC)
+I (src\logical\mode\debug\../../../framework/board/../../BLDC/../framework/board/board.h)(0x6328BAAA)
+I (src\logical\mode\debug\../../../framework/board/../../BLDC/../framework/board/../../BLDC/bldc.h)(0x632894DC)
+I (src\logical\mode\debug\../../../framework/board/../../BLDC/../framework/board/0x1A.h)(0x6323739E)
+I (src\logical\mode\debug\../../../framework/board/../../BLDC/../framework/board/CPU/GD32F130C8T6.h)(0x6320A72C)
+I (src\logical\mode\debug\../../../framework/board/../../BLDC/../framework/framework.h)(0x6320A72C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x602569C6)
+I (src\logical\mode\debug\../../../framework/board/../../BLDC/../device/device.h)(0x6320A72C)
+I (src\logical\mode\debug\../../../framework/board/../../BLDC/../device/../framework/board/board.h)(0x6328BAAA)
+I (src\logical\mode\debug\../../../framework/board/../../BLDC/../device/../framework/board/0x1A.h)(0x6323739E)
+I (src\logical\mode\debug\../../../framework/board/../../BLDC/../device/../framework/board/CPU/GD32F130C8T6.h)(0x6320A72C)
+I (src\logical\mode\debug\../../../framework/board/../../BLDC/../device/../config/config.h)(0x6320A72C)
+I (src\logical\mode\debug\../../../framework/board/../../BLDC/../device/../config/../device/device.h)(0x6320A72C)
+I (src\logical\mode\debug\../../../framework/board/0x1A.h)(0x6323739E)
+I (src\logical\mode\debug\../../../framework/board/CPU/GD32F130C8T6.h)(0x6320A72C)
+I (src\logical\mode\debug\../../../logical/logical.h)(0x6320A72C)
+I (src\logical\mode\debug\../../../logical/../framework/board/board.h)(0x6328BAAA)
+I (src\logical\mode\debug\../../../logical/../framework/board/0x1A.h)(0x6323739E)
+I (src\logical\mode\debug\../../../logical/../framework/board/CPU/GD32F130C8T6.h)(0x6320A72C)
+I (src\logical\mode\debug\../../../dataPackage/dataPackage.h)(0x6320A72C)
+I (src\logical\mode\debug\../../../dataPackage/../framework/board/board.h)(0x6328BAAA)
+I (src\logical\mode\debug\../../../dataPackage/../framework/board/0x1A.h)(0x6323739E)
+I (src\logical\mode\debug\../../../dataPackage/../framework/board/CPU/GD32F130C8T6.h)(0x6320A72C)
+F (.\src\logical\mode\debug\debug.h)(0x6320A72C)()
+F (.\src\logical\mode\slave\slave.c)(0x6320A72C)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I.\RTE\_GreenBytes-IC:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc-IC:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include-D__UVISION_VERSION="535" -D_RTE_ -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -D_RTE_-o .\objects\slave.o --omf_browse .\objects\slave.crf --depend .\objects\slave.d)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0.h)(0x5DAEA934)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x60D42F32)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602569CE)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D42F32)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D42F32)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D42F32)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D42F32)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\system_gd32f1x0.h)(0x5DAEA934)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0_libopt.h)(0x5DB6F2DA)
+I (.\RTE\_GreenBytes\RTE_Components.h)(0x6320A72C)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_adc.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_dbg.h)(0x5DB6F260)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_dma.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_fmc.h)(0x5DB6EEF2)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_gpio.h)(0x5DAEA934)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_syscfg.h)(0x5DB6F260)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_i2c.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_fwdgt.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_pmu.h)(0x5DB6F260)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_rcu.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_timer.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_usart.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_wwdgt.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_misc.h)(0x5DAEA934)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_opa.h)(0x5DB6F260)
+I (src\logical\mode\slave\slave.h)(0x6320A72C)
+I (src\logical\mode\slave\../../../framework/board/board.h)(0x6328BAAA)
+I (src\logical\mode\slave\../../../framework/board/../../BLDC/bldc.h)(0x632894DC)
+I (src\logical\mode\slave\../../../framework/board/../../BLDC/../framework/board/board.h)(0x6328BAAA)
+I (src\logical\mode\slave\../../../framework/board/../../BLDC/../framework/board/../../BLDC/bldc.h)(0x632894DC)
+I (src\logical\mode\slave\../../../framework/board/../../BLDC/../framework/board/0x1A.h)(0x6323739E)
+I (src\logical\mode\slave\../../../framework/board/../../BLDC/../framework/board/CPU/GD32F130C8T6.h)(0x6320A72C)
+I (src\logical\mode\slave\../../../framework/board/../../BLDC/../framework/framework.h)(0x6320A72C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x602569C6)
+I (src\logical\mode\slave\../../../framework/board/../../BLDC/../device/device.h)(0x6320A72C)
+I (src\logical\mode\slave\../../../framework/board/../../BLDC/../device/../framework/board/board.h)(0x6328BAAA)
+I (src\logical\mode\slave\../../../framework/board/../../BLDC/../device/../framework/board/0x1A.h)(0x6323739E)
+I (src\logical\mode\slave\../../../framework/board/../../BLDC/../device/../framework/board/CPU/GD32F130C8T6.h)(0x6320A72C)
+I (src\logical\mode\slave\../../../framework/board/../../BLDC/../device/../config/config.h)(0x6320A72C)
+I (src\logical\mode\slave\../../../framework/board/../../BLDC/../device/../config/../device/device.h)(0x6320A72C)
+I (src\logical\mode\slave\../../../framework/board/0x1A.h)(0x6323739E)
+I (src\logical\mode\slave\../../../framework/board/CPU/GD32F130C8T6.h)(0x6320A72C)
+I (src\logical\mode\slave\../../../logical/logical.h)(0x6320A72C)
+I (src\logical\mode\slave\../../../logical/../framework/board/board.h)(0x6328BAAA)
+I (src\logical\mode\slave\../../../logical/../framework/board/0x1A.h)(0x6323739E)
+I (src\logical\mode\slave\../../../logical/../framework/board/CPU/GD32F130C8T6.h)(0x6320A72C)
+F (.\src\logical\mode\slave\slave.h)(0x6320A72C)()
+F (.\src\logical\mode\work\work.c)(0x6323739E)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I.\RTE\_GreenBytes-IC:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc-IC:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include-D__UVISION_VERSION="535" -D_RTE_ -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -D_RTE_-o .\objects\work.o --omf_browse .\objects\work.crf --depend .\objects\work.d)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0.h)(0x5DAEA934)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x60D42F32)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602569CE)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D42F32)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D42F32)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D42F32)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D42F32)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\system_gd32f1x0.h)(0x5DAEA934)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0_libopt.h)(0x5DB6F2DA)
+I (.\RTE\_GreenBytes\RTE_Components.h)(0x6320A72C)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_adc.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_dbg.h)(0x5DB6F260)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_dma.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_fmc.h)(0x5DB6EEF2)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_gpio.h)(0x5DAEA934)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_syscfg.h)(0x5DB6F260)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_i2c.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_fwdgt.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_pmu.h)(0x5DB6F260)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_rcu.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_timer.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_usart.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_wwdgt.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_misc.h)(0x5DAEA934)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_opa.h)(0x5DB6F260)
+I (src\logical\mode\work\work.h)(0x6320A72C)
+I (src\logical\mode\work\../../../framework/board/board.h)(0x6328BAAA)
+I (src\logical\mode\work\../../../framework/board/../../BLDC/bldc.h)(0x632894DC)
+I (src\logical\mode\work\../../../framework/board/../../BLDC/../framework/board/board.h)(0x6328BAAA)
+I (src\logical\mode\work\../../../framework/board/../../BLDC/../framework/board/../../BLDC/bldc.h)(0x632894DC)
+I (src\logical\mode\work\../../../framework/board/../../BLDC/../framework/board/0x1A.h)(0x6323739E)
+I (src\logical\mode\work\../../../framework/board/../../BLDC/../framework/board/CPU/GD32F130C8T6.h)(0x6320A72C)
+I (src\logical\mode\work\../../../framework/board/../../BLDC/../framework/framework.h)(0x6320A72C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x602569C6)
+I (src\logical\mode\work\../../../framework/board/../../BLDC/../device/device.h)(0x6320A72C)
+I (src\logical\mode\work\../../../framework/board/../../BLDC/../device/../framework/board/board.h)(0x6328BAAA)
+I (src\logical\mode\work\../../../framework/board/../../BLDC/../device/../framework/board/0x1A.h)(0x6323739E)
+I (src\logical\mode\work\../../../framework/board/../../BLDC/../device/../framework/board/CPU/GD32F130C8T6.h)(0x6320A72C)
+I (src\logical\mode\work\../../../framework/board/../../BLDC/../device/../config/config.h)(0x6320A72C)
+I (src\logical\mode\work\../../../framework/board/../../BLDC/../device/../config/../device/device.h)(0x6320A72C)
+I (src\logical\mode\work\../../../framework/board/0x1A.h)(0x6323739E)
+I (src\logical\mode\work\../../../framework/board/CPU/GD32F130C8T6.h)(0x6320A72C)
+I (src\logical\mode\work\../../../dataPackage/dataPackage.h)(0x6320A72C)
+I (src\logical\mode\work\../../../dataPackage/../framework/board/board.h)(0x6328BAAA)
+I (src\logical\mode\work\../../../dataPackage/../framework/board/0x1A.h)(0x6323739E)
+I (src\logical\mode\work\../../../dataPackage/../framework/board/CPU/GD32F130C8T6.h)(0x6320A72C)
+I (src\logical\mode\work\../../../dataPackage/../logical/logical.h)(0x6320A72C)
+I (src\logical\mode\work\../../../dataPackage/../logical/../framework/board/board.h)(0x6328BAAA)
+I (src\logical\mode\work\../../../dataPackage/../logical/../framework/board/0x1A.h)(0x6323739E)
+I (src\logical\mode\work\../../../dataPackage/../logical/../framework/board/CPU/GD32F130C8T6.h)(0x6320A72C)
+F (.\src\logical\mode\work\work.h)(0x6320A72C)()
+F (.\src\framework\framework.c)(0x6320A72C)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I.\RTE\_GreenBytes-IC:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc-IC:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include-D__UVISION_VERSION="535" -D_RTE_ -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -D_RTE_-o .\objects\framework.o --omf_browse .\objects\framework.crf --depend .\objects\framework.d)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0.h)(0x5DAEA934)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x60D42F32)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602569CE)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D42F32)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D42F32)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D42F32)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D42F32)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\system_gd32f1x0.h)(0x5DAEA934)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0_libopt.h)(0x5DB6F2DA)
+I (.\RTE\_GreenBytes\RTE_Components.h)(0x6320A72C)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_adc.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_dbg.h)(0x5DB6F260)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_dma.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_fmc.h)(0x5DB6EEF2)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_gpio.h)(0x5DAEA934)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_syscfg.h)(0x5DB6F260)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_i2c.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_fwdgt.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_pmu.h)(0x5DB6F260)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_rcu.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_timer.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_usart.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_wwdgt.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_misc.h)(0x5DAEA934)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_opa.h)(0x5DB6F260)
+I (src\framework\board/board.h)(0x6328BAAA)
+I (src\framework\board/../../BLDC/bldc.h)(0x632894DC)
+I (src\framework\board/../../BLDC/../framework/board/board.h)(0x6328BAAA)
+I (src\framework\board/../../BLDC/../framework/board/../../BLDC/bldc.h)(0x632894DC)
+I (src\framework\board/../../BLDC/../framework/board/0x1A.h)(0x6323739E)
+I (src\framework\board/../../BLDC/../framework/board/CPU/GD32F130C8T6.h)(0x6320A72C)
+I (src\framework\board/../../BLDC/../framework/framework.h)(0x6320A72C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x602569C6)
+I (src\framework\board/../../BLDC/../device/device.h)(0x6320A72C)
+I (src\framework\board/../../BLDC/../device/../framework/board/board.h)(0x6328BAAA)
+I (src\framework\board/../../BLDC/../device/../framework/board/0x1A.h)(0x6323739E)
+I (src\framework\board/../../BLDC/../device/../framework/board/CPU/GD32F130C8T6.h)(0x6320A72C)
+I (src\framework\board/../../BLDC/../device/../config/config.h)(0x6320A72C)
+I (src\framework\board/../../BLDC/../device/../config/../device/device.h)(0x6320A72C)
+I (src\framework\board/0x1A.h)(0x6323739E)
+I (src\framework\board/CPU/GD32F130C8T6.h)(0x6320A72C)
+I (src\framework\../dataPackage/dataPackage.h)(0x6320A72C)
+I (src\framework\../dataPackage/../framework/board/board.h)(0x6328BAAA)
+I (src\framework\../dataPackage/../framework/board/0x1A.h)(0x6323739E)
+I (src\framework\../dataPackage/../framework/board/CPU/GD32F130C8T6.h)(0x6320A72C)
+I (src\framework\../dataPackage/../logical/logical.h)(0x6320A72C)
+I (src\framework\../dataPackage/../logical/../framework/board/board.h)(0x6328BAAA)
+I (src\framework\../dataPackage/../logical/../framework/board/0x1A.h)(0x6323739E)
+I (src\framework\../dataPackage/../logical/../framework/board/CPU/GD32F130C8T6.h)(0x6320A72C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x602569C4)
+F (.\src\framework\framework.h)(0x6320A72C)()
+F (.\src\framework\board\board.h)(0x6328BAAA)()
+F (.\src\framework\board\board_1.h)(0x00000000)()
+F (.\src\framework\board\board_2.h)(0x00000000)()
+F (.\src\device\device.c)(0x6320A72C)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I.\RTE\_GreenBytes-IC:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc-IC:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include-D__UVISION_VERSION="535" -D_RTE_ -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -D_RTE_-o .\objects\device.o --omf_browse .\objects\device.crf --depend .\objects\device.d)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0.h)(0x5DAEA934)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x60D42F32)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602569CE)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D42F32)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D42F32)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D42F32)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D42F32)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\system_gd32f1x0.h)(0x5DAEA934)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0_libopt.h)(0x5DB6F2DA)
+I (.\RTE\_GreenBytes\RTE_Components.h)(0x6320A72C)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_adc.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_dbg.h)(0x5DB6F260)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_dma.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_fmc.h)(0x5DB6EEF2)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_gpio.h)(0x5DAEA934)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_syscfg.h)(0x5DB6F260)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_i2c.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_fwdgt.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_pmu.h)(0x5DB6F260)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_rcu.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_timer.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_usart.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_wwdgt.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_misc.h)(0x5DAEA934)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_opa.h)(0x5DB6F260)
+I (src\device\device.h)(0x6320A72C)
+I (src\device\../framework/board/board.h)(0x6328BAAA)
+I (src\device\../framework/board/../../BLDC/bldc.h)(0x632894DC)
+I (src\device\../framework/board/../../BLDC/../framework/board/board.h)(0x6328BAAA)
+I (src\device\../framework/board/../../BLDC/../framework/board/../../BLDC/bldc.h)(0x632894DC)
+I (src\device\../framework/board/../../BLDC/../framework/board/0x1A.h)(0x6323739E)
+I (src\device\../framework/board/../../BLDC/../framework/board/CPU/GD32F130C8T6.h)(0x6320A72C)
+I (src\device\../framework/board/../../BLDC/../framework/framework.h)(0x6320A72C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x602569C6)
+I (src\device\../framework/board/../../BLDC/../device/device.h)(0x6320A72C)
+I (src\device\../framework/board/../../BLDC/../config/config.h)(0x6320A72C)
+I (src\device\../framework/board/0x1A.h)(0x6323739E)
+I (src\device\../framework/board/CPU/GD32F130C8T6.h)(0x6320A72C)
+F (.\src\device\device.h)(0x6320A72C)()
+F (.\src\config\config.c)(0x6320A72C)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I.\RTE\_GreenBytes-IC:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc-IC:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include-D__UVISION_VERSION="535" -D_RTE_ -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -D_RTE_-o .\objects\config.o --omf_browse .\objects\config.crf --depend .\objects\config.d)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0.h)(0x5DAEA934)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x60D42F32)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602569CE)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D42F32)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D42F32)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D42F32)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D42F32)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\system_gd32f1x0.h)(0x5DAEA934)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0_libopt.h)(0x5DB6F2DA)
+I (.\RTE\_GreenBytes\RTE_Components.h)(0x6320A72C)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_adc.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_dbg.h)(0x5DB6F260)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_dma.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_fmc.h)(0x5DB6EEF2)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_gpio.h)(0x5DAEA934)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_syscfg.h)(0x5DB6F260)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_i2c.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_fwdgt.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_pmu.h)(0x5DB6F260)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_rcu.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_timer.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_usart.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_wwdgt.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_misc.h)(0x5DAEA934)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_opa.h)(0x5DB6F260)
+I (src\config\config.h)(0x6320A72C)
+I (src\config\../framework/framework.h)(0x6320A72C)
+I (src\config\../framework/board/board.h)(0x6328BAAA)
+I (src\config\../framework/board/../../BLDC/bldc.h)(0x632894DC)
+I (src\config\../framework/board/../../BLDC/../framework/board/board.h)(0x6328BAAA)
+I (src\config\../framework/board/../../BLDC/../framework/board/../../BLDC/bldc.h)(0x632894DC)
+I (src\config\../framework/board/../../BLDC/../framework/board/0x1A.h)(0x6323739E)
+I (src\config\../framework/board/../../BLDC/../framework/board/CPU/GD32F130C8T6.h)(0x6320A72C)
+I (src\config\../framework/board/../../BLDC/../framework/framework.h)(0x6320A72C)
+I (src\config\../framework/board/../../BLDC/../device/device.h)(0x6320A72C)
+I (src\config\../framework/board/../../BLDC/../device/../framework/board/board.h)(0x6328BAAA)
+I (src\config\../framework/board/../../BLDC/../device/../framework/board/0x1A.h)(0x6323739E)
+I (src\config\../framework/board/../../BLDC/../device/../framework/board/CPU/GD32F130C8T6.h)(0x6320A72C)
+I (src\config\../framework/board/0x1A.h)(0x6323739E)
+I (src\config\../framework/board/CPU/GD32F130C8T6.h)(0x6320A72C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x602569C6)
+F (.\src\config\config.h)(0x6320A72C)()
+F (.\src\BLDC\bldc.c)(0x632A8C59)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I.\RTE\_GreenBytes-IC:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc-IC:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include-D__UVISION_VERSION="535" -D_RTE_ -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -D_RTE_-o .\objects\bldc.o --omf_browse .\objects\bldc.crf --depend .\objects\bldc.d)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0.h)(0x5DAEA934)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x60D42F32)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602569CE)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D42F32)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D42F32)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D42F32)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D42F32)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\system_gd32f1x0.h)(0x5DAEA934)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0_libopt.h)(0x5DB6F2DA)
+I (.\RTE\_GreenBytes\RTE_Components.h)(0x6320A72C)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_adc.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_dbg.h)(0x5DB6F260)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_dma.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_fmc.h)(0x5DB6EEF2)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_gpio.h)(0x5DAEA934)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_syscfg.h)(0x5DB6F260)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_i2c.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_fwdgt.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_pmu.h)(0x5DB6F260)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_rcu.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_timer.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_usart.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_wwdgt.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_misc.h)(0x5DAEA934)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_opa.h)(0x5DB6F260)
+I (src\BLDC\bldc.h)(0x632894DC)
+I (src\BLDC\../framework/board/board.h)(0x6328BAAA)
+I (src\BLDC\../framework/board/../../BLDC/bldc.h)(0x632894DC)
+I (src\BLDC\../framework/board/0x1A.h)(0x6323739E)
+I (src\BLDC\../framework/board/CPU/GD32F130C8T6.h)(0x6320A72C)
+I (src\BLDC\../framework/framework.h)(0x6320A72C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x602569C6)
+I (src\BLDC\../device/device.h)(0x6320A72C)
+I (src\BLDC\../device/../framework/board/board.h)(0x6328BAAA)
+I (src\BLDC\../device/../framework/board/0x1A.h)(0x6323739E)
+I (src\BLDC\../device/../framework/board/CPU/GD32F130C8T6.h)(0x6320A72C)
+I (src\BLDC\../device/../config/config.h)(0x6320A72C)
+I (src\BLDC\../device/../config/../device/device.h)(0x6320A72C)
+I (src\BLDC\table/hall.h)(0x6320A72C)
+I (src\BLDC\table/sin.h)(0x63293A44)
+I (src\BLDC\table/meander.h)(0x63293A3E)
+F (.\src\BLDC\bldc.h)(0x632894DC)()
+F (.\src\BLDC\table\hall.h)(0x6320A72C)()
+F (.\src\BLDC\table\meander.h)(0x63293A3E)()
+F (.\src\BLDC\table\sin.h)(0x63293A44)()
+F (.\src\BLDC\table\sinmod.h)(0x00000000)()
+F (.\src\dataPackage\dataPackage.c)(0x6320A72C)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I.\RTE\_GreenBytes-IC:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc-IC:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include-D__UVISION_VERSION="535" -D_RTE_ -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -D_RTE_-o .\objects\datapackage.o --omf_browse .\objects\datapackage.crf --depend .\objects\datapackage.d)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0.h)(0x5DAEA934)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x60D42F32)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602569CE)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D42F32)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D42F32)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D42F32)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D42F32)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\system_gd32f1x0.h)(0x5DAEA934)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0_libopt.h)(0x5DB6F2DA)
+I (.\RTE\_GreenBytes\RTE_Components.h)(0x6320A72C)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_adc.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_dbg.h)(0x5DB6F260)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_dma.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_fmc.h)(0x5DB6EEF2)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_gpio.h)(0x5DAEA934)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_syscfg.h)(0x5DB6F260)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_i2c.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_fwdgt.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_pmu.h)(0x5DB6F260)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_rcu.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_timer.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_usart.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_wwdgt.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_misc.h)(0x5DAEA934)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_opa.h)(0x5DB6F260)
+I (src\dataPackage\dataPackage.h)(0x6320A72C)
+I (src\dataPackage\../framework/board/board.h)(0x6328BAAA)
+I (src\dataPackage\../framework/board/../../BLDC/bldc.h)(0x632894DC)
+I (src\dataPackage\../framework/board/../../BLDC/../framework/board/board.h)(0x6328BAAA)
+I (src\dataPackage\../framework/board/../../BLDC/../framework/board/../../BLDC/bldc.h)(0x632894DC)
+I (src\dataPackage\../framework/board/../../BLDC/../framework/board/0x1A.h)(0x6323739E)
+I (src\dataPackage\../framework/board/../../BLDC/../framework/board/CPU/GD32F130C8T6.h)(0x6320A72C)
+I (src\dataPackage\../framework/board/../../BLDC/../framework/framework.h)(0x6320A72C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x602569C6)
+I (src\dataPackage\../framework/board/../../BLDC/../device/device.h)(0x6320A72C)
+I (src\dataPackage\../framework/board/../../BLDC/../device/../framework/board/board.h)(0x6328BAAA)
+I (src\dataPackage\../framework/board/../../BLDC/../device/../framework/board/0x1A.h)(0x6323739E)
+I (src\dataPackage\../framework/board/../../BLDC/../device/../framework/board/CPU/GD32F130C8T6.h)(0x6320A72C)
+I (src\dataPackage\../framework/board/../../BLDC/../device/../config/config.h)(0x6320A72C)
+I (src\dataPackage\../framework/board/../../BLDC/../device/../config/../device/device.h)(0x6320A72C)
+I (src\dataPackage\../framework/board/0x1A.h)(0x6323739E)
+I (src\dataPackage\../framework/board/CPU/GD32F130C8T6.h)(0x6320A72C)
+I (src\dataPackage\../logical/logical.h)(0x6320A72C)
+I (src\dataPackage\../logical/../framework/board/board.h)(0x6328BAAA)
+I (src\dataPackage\../logical/../framework/board/0x1A.h)(0x6323739E)
+I (src\dataPackage\../logical/../framework/board/CPU/GD32F130C8T6.h)(0x6320A72C)
+F (.\src\dataPackage\dataPackage.h)(0x6320A72C)()
+F (RTE\Device\GD32F130C8\gd32f1x0_adc.c)(0x6320A72C)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I.\RTE\_GreenBytes-IC:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc-IC:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include-D__UVISION_VERSION="535" -D_RTE_ -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -D_RTE_-o .\objects\gd32f1x0_adc.o --omf_browse .\objects\gd32f1x0_adc.crf --depend .\objects\gd32f1x0_adc.d)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_adc.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0.h)(0x5DAEA934)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x60D42F32)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602569CE)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D42F32)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D42F32)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D42F32)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D42F32)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\system_gd32f1x0.h)(0x5DAEA934)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0_libopt.h)(0x5DB6F2DA)
+I (.\RTE\_GreenBytes\RTE_Components.h)(0x6320A72C)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_dbg.h)(0x5DB6F260)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_dma.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_fmc.h)(0x5DB6EEF2)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_gpio.h)(0x5DAEA934)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_syscfg.h)(0x5DB6F260)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_i2c.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_fwdgt.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_pmu.h)(0x5DB6F260)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_rcu.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_timer.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_usart.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_wwdgt.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_misc.h)(0x5DAEA934)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_opa.h)(0x5DB6F260)
+F (RTE\Device\GD32F130C8\gd32f1x0_dbg.c)(0x6320A72C)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I.\RTE\_GreenBytes-IC:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc-IC:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include-D__UVISION_VERSION="535" -D_RTE_ -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -D_RTE_-o .\objects\gd32f1x0_dbg.o --omf_browse .\objects\gd32f1x0_dbg.crf --depend .\objects\gd32f1x0_dbg.d)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_dbg.h)(0x5DB6F260)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0.h)(0x5DAEA934)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x60D42F32)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602569CE)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D42F32)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D42F32)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D42F32)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D42F32)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\system_gd32f1x0.h)(0x5DAEA934)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0_libopt.h)(0x5DB6F2DA)
+I (.\RTE\_GreenBytes\RTE_Components.h)(0x6320A72C)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_adc.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_dma.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_fmc.h)(0x5DB6EEF2)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_gpio.h)(0x5DAEA934)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_syscfg.h)(0x5DB6F260)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_i2c.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_fwdgt.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_pmu.h)(0x5DB6F260)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_rcu.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_timer.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_usart.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_wwdgt.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_misc.h)(0x5DAEA934)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_opa.h)(0x5DB6F260)
+F (RTE\Device\GD32F130C8\gd32f1x0_dma.c)(0x6320A72C)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I.\RTE\_GreenBytes-IC:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc-IC:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include-D__UVISION_VERSION="535" -D_RTE_ -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -D_RTE_-o .\objects\gd32f1x0_dma.o --omf_browse .\objects\gd32f1x0_dma.crf --depend .\objects\gd32f1x0_dma.d)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_dma.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0.h)(0x5DAEA934)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x60D42F32)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602569CE)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D42F32)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D42F32)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D42F32)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D42F32)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\system_gd32f1x0.h)(0x5DAEA934)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0_libopt.h)(0x5DB6F2DA)
+I (.\RTE\_GreenBytes\RTE_Components.h)(0x6320A72C)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_adc.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_dbg.h)(0x5DB6F260)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_fmc.h)(0x5DB6EEF2)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_gpio.h)(0x5DAEA934)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_syscfg.h)(0x5DB6F260)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_i2c.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_fwdgt.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_pmu.h)(0x5DB6F260)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_rcu.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_timer.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_usart.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_wwdgt.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_misc.h)(0x5DAEA934)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_opa.h)(0x5DB6F260)
+F (RTE\Device\GD32F130C8\gd32f1x0_fmc.c)(0x6320A72C)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I.\RTE\_GreenBytes-IC:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc-IC:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include-D__UVISION_VERSION="535" -D_RTE_ -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -D_RTE_-o .\objects\gd32f1x0_fmc.o --omf_browse .\objects\gd32f1x0_fmc.crf --depend .\objects\gd32f1x0_fmc.d)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_fmc.h)(0x5DB6EEF2)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0.h)(0x5DAEA934)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x60D42F32)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602569CE)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D42F32)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D42F32)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D42F32)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D42F32)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\system_gd32f1x0.h)(0x5DAEA934)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0_libopt.h)(0x5DB6F2DA)
+I (.\RTE\_GreenBytes\RTE_Components.h)(0x6320A72C)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_adc.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_dbg.h)(0x5DB6F260)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_dma.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_gpio.h)(0x5DAEA934)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_syscfg.h)(0x5DB6F260)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_i2c.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_fwdgt.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_pmu.h)(0x5DB6F260)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_rcu.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_timer.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_usart.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_wwdgt.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_misc.h)(0x5DAEA934)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_opa.h)(0x5DB6F260)
+F (RTE\Device\GD32F130C8\gd32f1x0_fwdgt.c)(0x6320A72C)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I.\RTE\_GreenBytes-IC:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc-IC:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include-D__UVISION_VERSION="535" -D_RTE_ -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -D_RTE_-o .\objects\gd32f1x0_fwdgt.o --omf_browse .\objects\gd32f1x0_fwdgt.crf --depend .\objects\gd32f1x0_fwdgt.d)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_fwdgt.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0.h)(0x5DAEA934)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x60D42F32)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602569CE)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D42F32)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D42F32)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D42F32)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D42F32)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\system_gd32f1x0.h)(0x5DAEA934)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0_libopt.h)(0x5DB6F2DA)
+I (.\RTE\_GreenBytes\RTE_Components.h)(0x6320A72C)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_adc.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_dbg.h)(0x5DB6F260)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_dma.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_fmc.h)(0x5DB6EEF2)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_gpio.h)(0x5DAEA934)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_syscfg.h)(0x5DB6F260)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_i2c.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_pmu.h)(0x5DB6F260)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_rcu.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_timer.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_usart.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_wwdgt.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_misc.h)(0x5DAEA934)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_opa.h)(0x5DB6F260)
+F (RTE\Device\GD32F130C8\gd32f1x0_gpio.c)(0x6320A72C)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I.\RTE\_GreenBytes-IC:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc-IC:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include-D__UVISION_VERSION="535" -D_RTE_ -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -D_RTE_-o .\objects\gd32f1x0_gpio.o --omf_browse .\objects\gd32f1x0_gpio.crf --depend .\objects\gd32f1x0_gpio.d)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_gpio.h)(0x5DAEA934)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0.h)(0x5DAEA934)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x60D42F32)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602569CE)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D42F32)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D42F32)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D42F32)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D42F32)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\system_gd32f1x0.h)(0x5DAEA934)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0_libopt.h)(0x5DB6F2DA)
+I (.\RTE\_GreenBytes\RTE_Components.h)(0x6320A72C)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_adc.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_dbg.h)(0x5DB6F260)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_dma.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_fmc.h)(0x5DB6EEF2)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_syscfg.h)(0x5DB6F260)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_i2c.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_fwdgt.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_pmu.h)(0x5DB6F260)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_rcu.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_timer.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_usart.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_wwdgt.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_misc.h)(0x5DAEA934)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_opa.h)(0x5DB6F260)
+F (RTE\Device\GD32F130C8\gd32f1x0_i2c.c)(0x6320A72C)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I.\RTE\_GreenBytes-IC:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc-IC:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include-D__UVISION_VERSION="535" -D_RTE_ -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -D_RTE_-o .\objects\gd32f1x0_i2c.o --omf_browse .\objects\gd32f1x0_i2c.crf --depend .\objects\gd32f1x0_i2c.d)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_i2c.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0.h)(0x5DAEA934)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x60D42F32)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602569CE)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D42F32)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D42F32)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D42F32)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D42F32)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\system_gd32f1x0.h)(0x5DAEA934)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0_libopt.h)(0x5DB6F2DA)
+I (.\RTE\_GreenBytes\RTE_Components.h)(0x6320A72C)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_adc.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_dbg.h)(0x5DB6F260)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_dma.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_fmc.h)(0x5DB6EEF2)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_gpio.h)(0x5DAEA934)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_syscfg.h)(0x5DB6F260)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_fwdgt.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_pmu.h)(0x5DB6F260)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_rcu.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_timer.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_usart.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_wwdgt.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_misc.h)(0x5DAEA934)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_opa.h)(0x5DB6F260)
+F (RTE\Device\GD32F130C8\gd32f1x0_misc.c)(0x6320A72C)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I.\RTE\_GreenBytes-IC:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc-IC:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include-D__UVISION_VERSION="535" -D_RTE_ -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -D_RTE_-o .\objects\gd32f1x0_misc.o --omf_browse .\objects\gd32f1x0_misc.crf --depend .\objects\gd32f1x0_misc.d)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_misc.h)(0x5DAEA934)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0.h)(0x5DAEA934)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x60D42F32)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602569CE)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D42F32)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D42F32)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D42F32)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D42F32)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\system_gd32f1x0.h)(0x5DAEA934)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0_libopt.h)(0x5DB6F2DA)
+I (.\RTE\_GreenBytes\RTE_Components.h)(0x6320A72C)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_adc.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_dbg.h)(0x5DB6F260)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_dma.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_fmc.h)(0x5DB6EEF2)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_gpio.h)(0x5DAEA934)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_syscfg.h)(0x5DB6F260)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_i2c.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_fwdgt.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_pmu.h)(0x5DB6F260)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_rcu.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_timer.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_usart.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_wwdgt.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_opa.h)(0x5DB6F260)
+F (RTE\Device\GD32F130C8\gd32f1x0_opa.c)(0x6320A72C)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I.\RTE\_GreenBytes-IC:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc-IC:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include-D__UVISION_VERSION="535" -D_RTE_ -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -D_RTE_-o .\objects\gd32f1x0_opa.o --omf_browse .\objects\gd32f1x0_opa.crf --depend .\objects\gd32f1x0_opa.d)
+F (RTE\Device\GD32F130C8\gd32f1x0_pmu.c)(0x6320A72C)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I.\RTE\_GreenBytes-IC:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc-IC:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include-D__UVISION_VERSION="535" -D_RTE_ -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -D_RTE_-o .\objects\gd32f1x0_pmu.o --omf_browse .\objects\gd32f1x0_pmu.crf --depend .\objects\gd32f1x0_pmu.d)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_pmu.h)(0x5DB6F260)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0.h)(0x5DAEA934)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x60D42F32)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602569CE)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D42F32)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D42F32)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D42F32)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D42F32)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\system_gd32f1x0.h)(0x5DAEA934)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0_libopt.h)(0x5DB6F2DA)
+I (.\RTE\_GreenBytes\RTE_Components.h)(0x6320A72C)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_adc.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_dbg.h)(0x5DB6F260)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_dma.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_fmc.h)(0x5DB6EEF2)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_gpio.h)(0x5DAEA934)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_syscfg.h)(0x5DB6F260)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_i2c.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_fwdgt.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_rcu.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_timer.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_usart.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_wwdgt.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_misc.h)(0x5DAEA934)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_opa.h)(0x5DB6F260)
+F (RTE\Device\GD32F130C8\gd32f1x0_rcu.c)(0x6320A72C)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I.\RTE\_GreenBytes-IC:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc-IC:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include-D__UVISION_VERSION="535" -D_RTE_ -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -D_RTE_-o .\objects\gd32f1x0_rcu.o --omf_browse .\objects\gd32f1x0_rcu.crf --depend .\objects\gd32f1x0_rcu.d)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_rcu.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0.h)(0x5DAEA934)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x60D42F32)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602569CE)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D42F32)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D42F32)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D42F32)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D42F32)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\system_gd32f1x0.h)(0x5DAEA934)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0_libopt.h)(0x5DB6F2DA)
+I (.\RTE\_GreenBytes\RTE_Components.h)(0x6320A72C)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_adc.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_dbg.h)(0x5DB6F260)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_dma.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_fmc.h)(0x5DB6EEF2)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_gpio.h)(0x5DAEA934)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_syscfg.h)(0x5DB6F260)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_i2c.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_fwdgt.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_pmu.h)(0x5DB6F260)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_timer.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_usart.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_wwdgt.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_misc.h)(0x5DAEA934)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_opa.h)(0x5DB6F260)
+F (RTE\Device\GD32F130C8\gd32f1x0_syscfg.c)(0x6320A72C)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I.\RTE\_GreenBytes-IC:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc-IC:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include-D__UVISION_VERSION="535" -D_RTE_ -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -D_RTE_-o .\objects\gd32f1x0_syscfg.o --omf_browse .\objects\gd32f1x0_syscfg.crf --depend .\objects\gd32f1x0_syscfg.d)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_syscfg.h)(0x5DB6F260)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0.h)(0x5DAEA934)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x60D42F32)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602569CE)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D42F32)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D42F32)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D42F32)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D42F32)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\system_gd32f1x0.h)(0x5DAEA934)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0_libopt.h)(0x5DB6F2DA)
+I (.\RTE\_GreenBytes\RTE_Components.h)(0x6320A72C)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_adc.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_dbg.h)(0x5DB6F260)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_dma.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_fmc.h)(0x5DB6EEF2)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_gpio.h)(0x5DAEA934)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_i2c.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_fwdgt.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_pmu.h)(0x5DB6F260)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_rcu.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_timer.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_usart.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_wwdgt.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_misc.h)(0x5DAEA934)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_opa.h)(0x5DB6F260)
+F (RTE\Device\GD32F130C8\gd32f1x0_timer.c)(0x6320A72C)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I.\RTE\_GreenBytes-IC:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc-IC:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include-D__UVISION_VERSION="535" -D_RTE_ -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -D_RTE_-o .\objects\gd32f1x0_timer.o --omf_browse .\objects\gd32f1x0_timer.crf --depend .\objects\gd32f1x0_timer.d)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_timer.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0.h)(0x5DAEA934)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x60D42F32)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602569CE)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D42F32)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D42F32)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D42F32)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D42F32)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\system_gd32f1x0.h)(0x5DAEA934)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0_libopt.h)(0x5DB6F2DA)
+I (.\RTE\_GreenBytes\RTE_Components.h)(0x6320A72C)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_adc.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_dbg.h)(0x5DB6F260)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_dma.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_fmc.h)(0x5DB6EEF2)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_gpio.h)(0x5DAEA934)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_syscfg.h)(0x5DB6F260)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_i2c.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_fwdgt.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_pmu.h)(0x5DB6F260)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_rcu.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_usart.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_wwdgt.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_misc.h)(0x5DAEA934)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_opa.h)(0x5DB6F260)
+F (RTE\Device\GD32F130C8\gd32f1x0_usart.c)(0x6320A72C)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I.\RTE\_GreenBytes-IC:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc-IC:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include-D__UVISION_VERSION="535" -D_RTE_ -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -D_RTE_-o .\objects\gd32f1x0_usart.o --omf_browse .\objects\gd32f1x0_usart.crf --depend .\objects\gd32f1x0_usart.d)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_usart.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0.h)(0x5DAEA934)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x60D42F32)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602569CE)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D42F32)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D42F32)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D42F32)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D42F32)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\system_gd32f1x0.h)(0x5DAEA934)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0_libopt.h)(0x5DB6F2DA)
+I (.\RTE\_GreenBytes\RTE_Components.h)(0x6320A72C)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_adc.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_dbg.h)(0x5DB6F260)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_dma.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_fmc.h)(0x5DB6EEF2)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_gpio.h)(0x5DAEA934)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_syscfg.h)(0x5DB6F260)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_i2c.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_fwdgt.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_pmu.h)(0x5DB6F260)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_rcu.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_timer.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_wwdgt.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_misc.h)(0x5DAEA934)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_opa.h)(0x5DB6F260)
+F (RTE\Device\GD32F130C8\gd32f1x0_wwdgt.c)(0x6320A72C)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I.\RTE\_GreenBytes-IC:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc-IC:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include-D__UVISION_VERSION="535" -D_RTE_ -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -D_RTE_-o .\objects\gd32f1x0_wwdgt.o --omf_browse .\objects\gd32f1x0_wwdgt.crf --depend .\objects\gd32f1x0_wwdgt.d)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_wwdgt.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0.h)(0x5DAEA934)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x60D42F32)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602569CE)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D42F32)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D42F32)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D42F32)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D42F32)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\system_gd32f1x0.h)(0x5DAEA934)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0_libopt.h)(0x5DB6F2DA)
+I (.\RTE\_GreenBytes\RTE_Components.h)(0x6320A72C)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_adc.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_dbg.h)(0x5DB6F260)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_dma.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_fmc.h)(0x5DB6EEF2)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_gpio.h)(0x5DAEA934)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_syscfg.h)(0x5DB6F260)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_i2c.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_fwdgt.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_pmu.h)(0x5DB6F260)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_rcu.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_timer.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_usart.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_misc.h)(0x5DAEA934)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_opa.h)(0x5DB6F260)
+F (RTE\Device\GD32F130C8\startup_gd32f1x0.s)(0x6320A72C)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork -I.\RTE\_GreenBytes-IC:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc-IC:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include--pd "__UVISION_VERSION SETA 535" --pd "_RTE_ SETA 1" --pd "GD32F1x0 SETA 1" --pd "GD32F130_150 SETA 1" --pd "USE_STDPERIPH_DRIVER SETA 1" --pd "_RTE_ SETA 1"--list .\listings\startup_gd32f1x0.lst --xref -o .\objects\startup_gd32f1x0.o --depend .\objects\startup_gd32f1x0.d)
+F (RTE\Device\GD32F130C8\system_gd32f1x0.c)(0x6320A72C)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I.\RTE\_GreenBytes-IC:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc-IC:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include-D__UVISION_VERSION="535" -D_RTE_ -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -D_RTE_-o .\objects\system_gd32f1x0.o --omf_browse .\objects\system_gd32f1x0.crf --depend .\objects\system_gd32f1x0.d)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0.h)(0x5DAEA934)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x60D42F32)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602569CE)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D42F32)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D42F32)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D42F32)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D42F32)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\system_gd32f1x0.h)(0x5DAEA934)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0_libopt.h)(0x5DB6F2DA)
+I (.\RTE\_GreenBytes\RTE_Components.h)(0x6320A72C)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_adc.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_dbg.h)(0x5DB6F260)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_dma.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_fmc.h)(0x5DB6EEF2)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_gpio.h)(0x5DAEA934)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_syscfg.h)(0x5DB6F260)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_i2c.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_fwdgt.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_pmu.h)(0x5DB6F260)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_rcu.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_timer.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_usart.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_wwdgt.h)(0x5DB30E90)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_misc.h)(0x5DAEA934)
+I (C:\Users\GreenBytes-Home\AppData\Local\Arm\Packs\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_opa.h)(0x5DB6F260)

@@ -1,0 +1,1 @@
+D:\GitLibrary\KickScooter\Keil\compile\bin\flash.exe D:\GitLibrary\KickScooter\Keil\KickScooter.uvprojx

@@ -1,0 +1,1 @@
+D:\GitLibrary\KickScooter\Keil\compile\bin\compile.exe D:\GitLibrary\KickScooter\Keil\KickScooter.uvprojx

@@ -1,0 +1,594 @@
+Dependencies for Project 'KickScooter', Target 'GD32F130C8T6': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (.\src\main.c)(0x61EDC176)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I.\RTE\_GD32F130C8T6-ID:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc-ID:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include-D__UVISION_VERSION="535" -D_RTE_ -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -D_RTE_-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (src\define.h)(0x61EDBE9E)
+I (src\PCB/BOARD_X1.h)(0x61ED818D)
+I (src\CPU/GD32F130C8C6.h)(0x61EDBF34)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0.h)(0x5DAEA934)
+I (D:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x60D42122)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x60255BBE)
+I (D:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D42122)
+I (D:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D42122)
+I (D:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D42122)
+I (D:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D42122)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\system_gd32f1x0.h)(0x5DAEA934)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0_libopt.h)(0x5DB6F2DA)
+I (.\RTE\_GD32F130C8T6\RTE_Components.h)(0x61EDAFD5)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_adc.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_dbg.h)(0x5DB6F260)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_dma.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_fmc.h)(0x5DB6EEF2)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_gpio.h)(0x5DAEA934)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_syscfg.h)(0x5DB6F260)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_i2c.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_fwdgt.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_pmu.h)(0x5DB6F260)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_rcu.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_timer.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_usart.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_wwdgt.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_misc.h)(0x5DAEA934)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_opa.h)(0x5DB6F260)
+I (src\framework/framework.h)(0x61ED431F)
+I (src\framework/../define.h)(0x61EDBE9E)
+I (D:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x60255BB6)
+I (src\BLDC/bldc.h)(0x61ED8705)
+I (src\BLDC/../define.h)(0x61EDBE9E)
+F (.\src\define.h)(0x61EDBE9E)()
+F (.\src\framework\framework.c)(0x61ED42AE)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I.\RTE\_GD32F130C8T6-ID:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc-ID:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include-D__UVISION_VERSION="535" -D_RTE_ -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -D_RTE_-o .\objects\framework.o --omf_browse .\objects\framework.crf --depend .\objects\framework.d)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0.h)(0x5DAEA934)
+I (D:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x60D42122)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x60255BBE)
+I (D:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D42122)
+I (D:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D42122)
+I (D:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D42122)
+I (D:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D42122)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\system_gd32f1x0.h)(0x5DAEA934)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0_libopt.h)(0x5DB6F2DA)
+I (.\RTE\_GD32F130C8T6\RTE_Components.h)(0x61EDAFD5)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_adc.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_dbg.h)(0x5DB6F260)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_dma.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_fmc.h)(0x5DB6EEF2)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_gpio.h)(0x5DAEA934)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_syscfg.h)(0x5DB6F260)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_i2c.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_fwdgt.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_pmu.h)(0x5DB6F260)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_rcu.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_timer.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_usart.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_wwdgt.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_misc.h)(0x5DAEA934)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_opa.h)(0x5DB6F260)
+I (src\framework\framework.h)(0x61ED431F)
+I (src\framework\../define.h)(0x61EDBE9E)
+I (src\framework\../PCB/BOARD_X1.h)(0x61ED818D)
+I (src\framework\../CPU/GD32F130C8C6.h)(0x61EDBF34)
+I (D:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x60255BB6)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x60255BB4)
+F (.\src\framework\framework.h)(0x61ED431F)()
+F (.\src\BLDC\bldc.c)(0x61EBA2BA)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I.\RTE\_GD32F130C8T6-ID:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc-ID:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include-D__UVISION_VERSION="535" -D_RTE_ -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -D_RTE_-o .\objects\bldc.o --omf_browse .\objects\bldc.crf --depend .\objects\bldc.d)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0.h)(0x5DAEA934)
+I (D:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x60D42122)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x60255BBE)
+I (D:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D42122)
+I (D:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D42122)
+I (D:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D42122)
+I (D:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D42122)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\system_gd32f1x0.h)(0x5DAEA934)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0_libopt.h)(0x5DB6F2DA)
+I (.\RTE\_GD32F130C8T6\RTE_Components.h)(0x61EDAFD5)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_adc.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_dbg.h)(0x5DB6F260)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_dma.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_fmc.h)(0x5DB6EEF2)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_gpio.h)(0x5DAEA934)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_syscfg.h)(0x5DB6F260)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_i2c.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_fwdgt.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_pmu.h)(0x5DB6F260)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_rcu.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_timer.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_usart.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_wwdgt.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_misc.h)(0x5DAEA934)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_opa.h)(0x5DB6F260)
+I (src\BLDC\bldc.h)(0x61ED8705)
+I (src\BLDC\../framework/framework.h)(0x61ED431F)
+I (src\BLDC\../framework/../define.h)(0x61EDBE9E)
+I (src\BLDC\../framework/../PCB/BOARD_X1.h)(0x61ED818D)
+I (src\BLDC\../framework/../CPU/GD32F130C8C6.h)(0x61EDBF34)
+I (D:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x60255BB6)
+I (src\BLDC\../define.h)(0x61EDBE9E)
+I (src\BLDC\../table.h)(0x61EDA937)
+F (.\src\BLDC\bldc.h)(0x61ED8705)()
+F (.\src\PCB\BOARD_X1.h)(0x61ED818D)()
+F (.\src\PCB\BOARD_X2.h)(0x61ED409E)()
+F (.\src\PCB\BOARD_X3.h)(0x61E97C64)()
+F (.\src\PCB\BOARD_X4.h)(0x61E97C90)()
+F (.\src\CPU\GD32F103T8C6.h)(0x61EC5829)()
+F (.\src\CPU\GD32F130T6C6.h)(0x00000000)()
+F (.\src\CPU\GD32F130T8C6.h)(0x00000000)()
+F (.\src\device\device.c)(0x61EDC0BB)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I.\RTE\_GD32F130C8T6-ID:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc-ID:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include-D__UVISION_VERSION="535" -D_RTE_ -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -D_RTE_-o .\objects\device.o --omf_browse .\objects\device.crf --depend .\objects\device.d)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0.h)(0x5DAEA934)
+I (D:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x60D42122)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x60255BBE)
+I (D:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D42122)
+I (D:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D42122)
+I (D:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D42122)
+I (D:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D42122)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\system_gd32f1x0.h)(0x5DAEA934)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0_libopt.h)(0x5DB6F2DA)
+I (.\RTE\_GD32F130C8T6\RTE_Components.h)(0x61EDAFD5)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_adc.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_dbg.h)(0x5DB6F260)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_dma.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_fmc.h)(0x5DB6EEF2)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_gpio.h)(0x5DAEA934)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_syscfg.h)(0x5DB6F260)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_i2c.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_fwdgt.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_pmu.h)(0x5DB6F260)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_rcu.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_timer.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_usart.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_wwdgt.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_misc.h)(0x5DAEA934)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_opa.h)(0x5DB6F260)
+I (src\device\../define.h)(0x61EDBE9E)
+I (src\device\../PCB/BOARD_X1.h)(0x61ED818D)
+I (src\device\../CPU/GD32F130C8C6.h)(0x61EDBF34)
+I (src\device\device.h)(0x61EDBB9D)
+I (src\device\../framework/framework.h)(0x61ED431F)
+I (src\device\../framework/../define.h)(0x61EDBE9E)
+I (D:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x60255BB6)
+I (src\device\../BLDC/BLDC.h)(0x61ED8705)
+I (src\device\../BLDC/../define.h)(0x61EDBE9E)
+I (src\device\logical.h)(0x61ED0E47)
+F (.\src\device\device.h)(0x61EDBB9D)()
+F (.\src\device\logical.c)(0x61EDC0C7)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I.\RTE\_GD32F130C8T6-ID:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc-ID:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include-D__UVISION_VERSION="535" -D_RTE_ -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -D_RTE_-o .\objects\logical.o --omf_browse .\objects\logical.crf --depend .\objects\logical.d)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0.h)(0x5DAEA934)
+I (D:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x60D42122)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x60255BBE)
+I (D:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D42122)
+I (D:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D42122)
+I (D:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D42122)
+I (D:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D42122)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\system_gd32f1x0.h)(0x5DAEA934)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0_libopt.h)(0x5DB6F2DA)
+I (.\RTE\_GD32F130C8T6\RTE_Components.h)(0x61EDAFD5)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_adc.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_dbg.h)(0x5DB6F260)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_dma.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_fmc.h)(0x5DB6EEF2)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_gpio.h)(0x5DAEA934)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_syscfg.h)(0x5DB6F260)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_i2c.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_fwdgt.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_pmu.h)(0x5DB6F260)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_rcu.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_timer.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_usart.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_wwdgt.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_misc.h)(0x5DAEA934)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_opa.h)(0x5DB6F260)
+I (src\device\../define.h)(0x61EDBE9E)
+I (src\device\../PCB/BOARD_X1.h)(0x61ED818D)
+I (src\device\../CPU/GD32F130C8C6.h)(0x61EDBF34)
+I (src\device\device.h)(0x61EDBB9D)
+I (src\device\../framework/framework.h)(0x61ED431F)
+I (src\device\../framework/../define.h)(0x61EDBE9E)
+I (D:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x60255BB6)
+I (src\device\../BLDC/BLDC.h)(0x61ED8705)
+I (src\device\../BLDC/../define.h)(0x61EDBE9E)
+F (.\src\device\logical.h)(0x61ED0E47)()
+F (RTE\Device\GD32F130C8\gd32f1x0_adc.c)(0x5DB2AC20)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I.\RTE\_GD32F130C8T6-ID:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc-ID:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include-D__UVISION_VERSION="535" -D_RTE_ -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -D_RTE_-o .\objects\gd32f1x0_adc.o --omf_browse .\objects\gd32f1x0_adc.crf --depend .\objects\gd32f1x0_adc.d)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_adc.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0.h)(0x5DAEA934)
+I (D:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x60D42122)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x60255BBE)
+I (D:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D42122)
+I (D:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D42122)
+I (D:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D42122)
+I (D:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D42122)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\system_gd32f1x0.h)(0x5DAEA934)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0_libopt.h)(0x5DB6F2DA)
+I (.\RTE\_GD32F130C8T6\RTE_Components.h)(0x61EDAFD5)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_dbg.h)(0x5DB6F260)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_dma.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_fmc.h)(0x5DB6EEF2)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_gpio.h)(0x5DAEA934)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_syscfg.h)(0x5DB6F260)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_i2c.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_fwdgt.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_pmu.h)(0x5DB6F260)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_rcu.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_timer.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_usart.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_wwdgt.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_misc.h)(0x5DAEA934)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_opa.h)(0x5DB6F260)
+F (RTE\Device\GD32F130C8\gd32f1x0_dbg.c)(0x5DAE46C4)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I.\RTE\_GD32F130C8T6-ID:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc-ID:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include-D__UVISION_VERSION="535" -D_RTE_ -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -D_RTE_-o .\objects\gd32f1x0_dbg.o --omf_browse .\objects\gd32f1x0_dbg.crf --depend .\objects\gd32f1x0_dbg.d)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_dbg.h)(0x5DB6F260)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0.h)(0x5DAEA934)
+I (D:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x60D42122)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x60255BBE)
+I (D:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D42122)
+I (D:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D42122)
+I (D:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D42122)
+I (D:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D42122)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\system_gd32f1x0.h)(0x5DAEA934)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0_libopt.h)(0x5DB6F2DA)
+I (.\RTE\_GD32F130C8T6\RTE_Components.h)(0x61EDAFD5)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_adc.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_dma.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_fmc.h)(0x5DB6EEF2)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_gpio.h)(0x5DAEA934)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_syscfg.h)(0x5DB6F260)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_i2c.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_fwdgt.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_pmu.h)(0x5DB6F260)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_rcu.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_timer.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_usart.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_wwdgt.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_misc.h)(0x5DAEA934)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_opa.h)(0x5DB6F260)
+F (RTE\Device\GD32F130C8\gd32f1x0_dma.c)(0x5DB2AC20)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I.\RTE\_GD32F130C8T6-ID:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc-ID:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include-D__UVISION_VERSION="535" -D_RTE_ -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -D_RTE_-o .\objects\gd32f1x0_dma.o --omf_browse .\objects\gd32f1x0_dma.crf --depend .\objects\gd32f1x0_dma.d)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_dma.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0.h)(0x5DAEA934)
+I (D:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x60D42122)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x60255BBE)
+I (D:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D42122)
+I (D:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D42122)
+I (D:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D42122)
+I (D:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D42122)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\system_gd32f1x0.h)(0x5DAEA934)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0_libopt.h)(0x5DB6F2DA)
+I (.\RTE\_GD32F130C8T6\RTE_Components.h)(0x61EDAFD5)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_adc.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_dbg.h)(0x5DB6F260)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_fmc.h)(0x5DB6EEF2)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_gpio.h)(0x5DAEA934)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_syscfg.h)(0x5DB6F260)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_i2c.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_fwdgt.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_pmu.h)(0x5DB6F260)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_rcu.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_timer.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_usart.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_wwdgt.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_misc.h)(0x5DAEA934)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_opa.h)(0x5DB6F260)
+F (RTE\Device\GD32F130C8\gd32f1x0_fmc.c)(0x5DB6EF70)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I.\RTE\_GD32F130C8T6-ID:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc-ID:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include-D__UVISION_VERSION="535" -D_RTE_ -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -D_RTE_-o .\objects\gd32f1x0_fmc.o --omf_browse .\objects\gd32f1x0_fmc.crf --depend .\objects\gd32f1x0_fmc.d)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_fmc.h)(0x5DB6EEF2)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0.h)(0x5DAEA934)
+I (D:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x60D42122)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x60255BBE)
+I (D:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D42122)
+I (D:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D42122)
+I (D:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D42122)
+I (D:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D42122)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\system_gd32f1x0.h)(0x5DAEA934)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0_libopt.h)(0x5DB6F2DA)
+I (.\RTE\_GD32F130C8T6\RTE_Components.h)(0x61EDAFD5)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_adc.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_dbg.h)(0x5DB6F260)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_dma.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_gpio.h)(0x5DAEA934)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_syscfg.h)(0x5DB6F260)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_i2c.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_fwdgt.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_pmu.h)(0x5DB6F260)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_rcu.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_timer.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_usart.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_wwdgt.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_misc.h)(0x5DAEA934)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_opa.h)(0x5DB6F260)
+F (RTE\Device\GD32F130C8\gd32f1x0_fwdgt.c)(0x5DB2AC20)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I.\RTE\_GD32F130C8T6-ID:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc-ID:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include-D__UVISION_VERSION="535" -D_RTE_ -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -D_RTE_-o .\objects\gd32f1x0_fwdgt.o --omf_browse .\objects\gd32f1x0_fwdgt.crf --depend .\objects\gd32f1x0_fwdgt.d)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_fwdgt.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0.h)(0x5DAEA934)
+I (D:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x60D42122)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x60255BBE)
+I (D:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D42122)
+I (D:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D42122)
+I (D:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D42122)
+I (D:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D42122)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\system_gd32f1x0.h)(0x5DAEA934)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0_libopt.h)(0x5DB6F2DA)
+I (.\RTE\_GD32F130C8T6\RTE_Components.h)(0x61EDAFD5)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_adc.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_dbg.h)(0x5DB6F260)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_dma.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_fmc.h)(0x5DB6EEF2)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_gpio.h)(0x5DAEA934)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_syscfg.h)(0x5DB6F260)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_i2c.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_pmu.h)(0x5DB6F260)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_rcu.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_timer.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_usart.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_wwdgt.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_misc.h)(0x5DAEA934)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_opa.h)(0x5DB6F260)
+F (RTE\Device\GD32F130C8\gd32f1x0_gpio.c)(0x5DAE46C4)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I.\RTE\_GD32F130C8T6-ID:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc-ID:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include-D__UVISION_VERSION="535" -D_RTE_ -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -D_RTE_-o .\objects\gd32f1x0_gpio.o --omf_browse .\objects\gd32f1x0_gpio.crf --depend .\objects\gd32f1x0_gpio.d)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_gpio.h)(0x5DAEA934)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0.h)(0x5DAEA934)
+I (D:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x60D42122)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x60255BBE)
+I (D:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D42122)
+I (D:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D42122)
+I (D:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D42122)
+I (D:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D42122)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\system_gd32f1x0.h)(0x5DAEA934)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0_libopt.h)(0x5DB6F2DA)
+I (.\RTE\_GD32F130C8T6\RTE_Components.h)(0x61EDAFD5)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_adc.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_dbg.h)(0x5DB6F260)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_dma.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_fmc.h)(0x5DB6EEF2)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_syscfg.h)(0x5DB6F260)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_i2c.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_fwdgt.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_pmu.h)(0x5DB6F260)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_rcu.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_timer.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_usart.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_wwdgt.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_misc.h)(0x5DAEA934)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_opa.h)(0x5DB6F260)
+F (RTE\Device\GD32F130C8\gd32f1x0_i2c.c)(0x5DB2AC20)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I.\RTE\_GD32F130C8T6-ID:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc-ID:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include-D__UVISION_VERSION="535" -D_RTE_ -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -D_RTE_-o .\objects\gd32f1x0_i2c.o --omf_browse .\objects\gd32f1x0_i2c.crf --depend .\objects\gd32f1x0_i2c.d)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_i2c.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0.h)(0x5DAEA934)
+I (D:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x60D42122)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x60255BBE)
+I (D:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D42122)
+I (D:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D42122)
+I (D:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D42122)
+I (D:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D42122)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\system_gd32f1x0.h)(0x5DAEA934)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0_libopt.h)(0x5DB6F2DA)
+I (.\RTE\_GD32F130C8T6\RTE_Components.h)(0x61EDAFD5)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_adc.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_dbg.h)(0x5DB6F260)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_dma.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_fmc.h)(0x5DB6EEF2)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_gpio.h)(0x5DAEA934)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_syscfg.h)(0x5DB6F260)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_fwdgt.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_pmu.h)(0x5DB6F260)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_rcu.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_timer.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_usart.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_wwdgt.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_misc.h)(0x5DAEA934)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_opa.h)(0x5DB6F260)
+F (RTE\Device\GD32F130C8\gd32f1x0_misc.c)(0x5DAE46C4)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I.\RTE\_GD32F130C8T6-ID:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc-ID:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include-D__UVISION_VERSION="535" -D_RTE_ -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -D_RTE_-o .\objects\gd32f1x0_misc.o --omf_browse .\objects\gd32f1x0_misc.crf --depend .\objects\gd32f1x0_misc.d)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_misc.h)(0x5DAEA934)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0.h)(0x5DAEA934)
+I (D:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x60D42122)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x60255BBE)
+I (D:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D42122)
+I (D:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D42122)
+I (D:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D42122)
+I (D:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D42122)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\system_gd32f1x0.h)(0x5DAEA934)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0_libopt.h)(0x5DB6F2DA)
+I (.\RTE\_GD32F130C8T6\RTE_Components.h)(0x61EDAFD5)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_adc.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_dbg.h)(0x5DB6F260)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_dma.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_fmc.h)(0x5DB6EEF2)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_gpio.h)(0x5DAEA934)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_syscfg.h)(0x5DB6F260)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_i2c.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_fwdgt.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_pmu.h)(0x5DB6F260)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_rcu.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_timer.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_usart.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_wwdgt.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_opa.h)(0x5DB6F260)
+F (RTE\Device\GD32F130C8\gd32f1x0_opa.c)(0x5DB2AC20)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I.\RTE\_GD32F130C8T6-ID:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc-ID:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include-D__UVISION_VERSION="535" -D_RTE_ -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -D_RTE_-o .\objects\gd32f1x0_opa.o --omf_browse .\objects\gd32f1x0_opa.crf --depend .\objects\gd32f1x0_opa.d)
+F (RTE\Device\GD32F130C8\gd32f1x0_pmu.c)(0x5DAE46C4)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I.\RTE\_GD32F130C8T6-ID:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc-ID:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include-D__UVISION_VERSION="535" -D_RTE_ -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -D_RTE_-o .\objects\gd32f1x0_pmu.o --omf_browse .\objects\gd32f1x0_pmu.crf --depend .\objects\gd32f1x0_pmu.d)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_pmu.h)(0x5DB6F260)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0.h)(0x5DAEA934)
+I (D:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x60D42122)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x60255BBE)
+I (D:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D42122)
+I (D:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D42122)
+I (D:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D42122)
+I (D:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D42122)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\system_gd32f1x0.h)(0x5DAEA934)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0_libopt.h)(0x5DB6F2DA)
+I (.\RTE\_GD32F130C8T6\RTE_Components.h)(0x61EDAFD5)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_adc.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_dbg.h)(0x5DB6F260)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_dma.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_fmc.h)(0x5DB6EEF2)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_gpio.h)(0x5DAEA934)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_syscfg.h)(0x5DB6F260)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_i2c.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_fwdgt.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_rcu.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_timer.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_usart.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_wwdgt.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_misc.h)(0x5DAEA934)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_opa.h)(0x5DB6F260)
+F (RTE\Device\GD32F130C8\gd32f1x0_rcu.c)(0x5DB2AC20)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I.\RTE\_GD32F130C8T6-ID:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc-ID:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include-D__UVISION_VERSION="535" -D_RTE_ -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -D_RTE_-o .\objects\gd32f1x0_rcu.o --omf_browse .\objects\gd32f1x0_rcu.crf --depend .\objects\gd32f1x0_rcu.d)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_rcu.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0.h)(0x5DAEA934)
+I (D:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x60D42122)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x60255BBE)
+I (D:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D42122)
+I (D:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D42122)
+I (D:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D42122)
+I (D:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D42122)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\system_gd32f1x0.h)(0x5DAEA934)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0_libopt.h)(0x5DB6F2DA)
+I (.\RTE\_GD32F130C8T6\RTE_Components.h)(0x61EDAFD5)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_adc.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_dbg.h)(0x5DB6F260)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_dma.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_fmc.h)(0x5DB6EEF2)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_gpio.h)(0x5DAEA934)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_syscfg.h)(0x5DB6F260)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_i2c.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_fwdgt.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_pmu.h)(0x5DB6F260)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_timer.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_usart.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_wwdgt.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_misc.h)(0x5DAEA934)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_opa.h)(0x5DB6F260)
+F (RTE\Device\GD32F130C8\gd32f1x0_syscfg.c)(0x5DAE46C4)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I.\RTE\_GD32F130C8T6-ID:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc-ID:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include-D__UVISION_VERSION="535" -D_RTE_ -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -D_RTE_-o .\objects\gd32f1x0_syscfg.o --omf_browse .\objects\gd32f1x0_syscfg.crf --depend .\objects\gd32f1x0_syscfg.d)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_syscfg.h)(0x5DB6F260)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0.h)(0x5DAEA934)
+I (D:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x60D42122)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x60255BBE)
+I (D:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D42122)
+I (D:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D42122)
+I (D:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D42122)
+I (D:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D42122)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\system_gd32f1x0.h)(0x5DAEA934)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0_libopt.h)(0x5DB6F2DA)
+I (.\RTE\_GD32F130C8T6\RTE_Components.h)(0x61EDAFD5)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_adc.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_dbg.h)(0x5DB6F260)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_dma.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_fmc.h)(0x5DB6EEF2)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_gpio.h)(0x5DAEA934)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_i2c.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_fwdgt.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_pmu.h)(0x5DB6F260)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_rcu.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_timer.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_usart.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_wwdgt.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_misc.h)(0x5DAEA934)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_opa.h)(0x5DB6F260)
+F (RTE\Device\GD32F130C8\gd32f1x0_timer.c)(0x5DB2AC20)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I.\RTE\_GD32F130C8T6-ID:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc-ID:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include-D__UVISION_VERSION="535" -D_RTE_ -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -D_RTE_-o .\objects\gd32f1x0_timer.o --omf_browse .\objects\gd32f1x0_timer.crf --depend .\objects\gd32f1x0_timer.d)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_timer.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0.h)(0x5DAEA934)
+I (D:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x60D42122)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x60255BBE)
+I (D:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D42122)
+I (D:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D42122)
+I (D:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D42122)
+I (D:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D42122)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\system_gd32f1x0.h)(0x5DAEA934)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0_libopt.h)(0x5DB6F2DA)
+I (.\RTE\_GD32F130C8T6\RTE_Components.h)(0x61EDAFD5)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_adc.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_dbg.h)(0x5DB6F260)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_dma.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_fmc.h)(0x5DB6EEF2)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_gpio.h)(0x5DAEA934)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_syscfg.h)(0x5DB6F260)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_i2c.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_fwdgt.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_pmu.h)(0x5DB6F260)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_rcu.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_usart.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_wwdgt.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_misc.h)(0x5DAEA934)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_opa.h)(0x5DB6F260)
+F (RTE\Device\GD32F130C8\gd32f1x0_usart.c)(0x5DAE46C4)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I.\RTE\_GD32F130C8T6-ID:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc-ID:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include-D__UVISION_VERSION="535" -D_RTE_ -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -D_RTE_-o .\objects\gd32f1x0_usart.o --omf_browse .\objects\gd32f1x0_usart.crf --depend .\objects\gd32f1x0_usart.d)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_usart.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0.h)(0x5DAEA934)
+I (D:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x60D42122)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x60255BBE)
+I (D:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D42122)
+I (D:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D42122)
+I (D:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D42122)
+I (D:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D42122)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\system_gd32f1x0.h)(0x5DAEA934)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0_libopt.h)(0x5DB6F2DA)
+I (.\RTE\_GD32F130C8T6\RTE_Components.h)(0x61EDAFD5)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_adc.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_dbg.h)(0x5DB6F260)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_dma.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_fmc.h)(0x5DB6EEF2)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_gpio.h)(0x5DAEA934)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_syscfg.h)(0x5DB6F260)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_i2c.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_fwdgt.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_pmu.h)(0x5DB6F260)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_rcu.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_timer.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_wwdgt.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_misc.h)(0x5DAEA934)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_opa.h)(0x5DB6F260)
+F (RTE\Device\GD32F130C8\gd32f1x0_wwdgt.c)(0x5DB2AC20)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I.\RTE\_GD32F130C8T6-ID:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc-ID:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include-D__UVISION_VERSION="535" -D_RTE_ -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -D_RTE_-o .\objects\gd32f1x0_wwdgt.o --omf_browse .\objects\gd32f1x0_wwdgt.crf --depend .\objects\gd32f1x0_wwdgt.d)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_wwdgt.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0.h)(0x5DAEA934)
+I (D:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x60D42122)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x60255BBE)
+I (D:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D42122)
+I (D:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D42122)
+I (D:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D42122)
+I (D:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D42122)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\system_gd32f1x0.h)(0x5DAEA934)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0_libopt.h)(0x5DB6F2DA)
+I (.\RTE\_GD32F130C8T6\RTE_Components.h)(0x61EDAFD5)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_adc.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_dbg.h)(0x5DB6F260)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_dma.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_fmc.h)(0x5DB6EEF2)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_gpio.h)(0x5DAEA934)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_syscfg.h)(0x5DB6F260)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_i2c.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_fwdgt.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_pmu.h)(0x5DB6F260)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_rcu.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_timer.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_usart.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_misc.h)(0x5DAEA934)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_opa.h)(0x5DB6F260)
+F (RTE\Device\GD32F130C8\startup_gd32f1x0.s)(0x5DAE46C4)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork -I.\RTE\_GD32F130C8T6-ID:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc-ID:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include--pd "__UVISION_VERSION SETA 535" --pd "_RTE_ SETA 1" --pd "GD32F1x0 SETA 1" --pd "GD32F130_150 SETA 1" --pd "USE_STDPERIPH_DRIVER SETA 1" --pd "_RTE_ SETA 1"--list .\listings\startup_gd32f1x0.lst --xref -o .\objects\startup_gd32f1x0.o --depend .\objects\startup_gd32f1x0.d)
+F (RTE\Device\GD32F130C8\system_gd32f1x0.c)(0x61E9A3FE)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I.\RTE\_GD32F130C8T6-ID:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include-ID:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc-ID:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include-D__UVISION_VERSION="535" -D_RTE_ -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -D_RTE_-o .\objects\system_gd32f1x0.o --omf_browse .\objects\system_gd32f1x0.crf --depend .\objects\system_gd32f1x0.d)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0.h)(0x5DAEA934)
+I (D:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x60D42122)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x60255BBE)
+I (D:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D42122)
+I (D:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D42122)
+I (D:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D42122)
+I (D:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D42122)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\system_gd32f1x0.h)(0x5DAEA934)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Include\gd32f1x0_libopt.h)(0x5DB6F2DA)
+I (.\RTE\_GD32F130C8T6\RTE_Components.h)(0x61EDAFD5)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_adc.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_dbg.h)(0x5DB6F260)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_dma.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_fmc.h)(0x5DB6EEF2)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_gpio.h)(0x5DAEA934)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_syscfg.h)(0x5DB6F260)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_i2c.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_fwdgt.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_pmu.h)(0x5DB6F260)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_rcu.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_timer.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_usart.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_wwdgt.h)(0x5DB30E90)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_misc.h)(0x5DAEA934)
+I (D:\Keil_v5\GigaDevice\GD32F1x0_DFP\3.2.0\Device\Firmware\Peripherals\inc\gd32f1x0_opa.h)(0x5DB6F260)
+F (RTE\Device\GD32F130C6\gd32f1x0_adc.c)(0x5DB30E90)()
+F (RTE\Device\GD32F130C6\gd32f1x0_dbg.c)(0x5DAEA934)()
+F (RTE\Device\GD32F130C6\gd32f1x0_dma.c)(0x5DB30E90)()
+F (RTE\Device\GD32F130C6\gd32f1x0_fmc.c)(0x5DB6EF70)()
+F (RTE\Device\GD32F130C6\gd32f1x0_fwdgt.c)(0x5DB30E90)()
+F (RTE\Device\GD32F130C6\gd32f1x0_gpio.c)(0x5DAEA934)()
+F (RTE\Device\GD32F130C6\gd32f1x0_i2c.c)(0x5DB30E90)()
+F (RTE\Device\GD32F130C6\gd32f1x0_misc.c)(0x5DAEA934)()
+F (RTE\Device\GD32F130C6\gd32f1x0_opa.c)(0x5DB30E90)()
+F (RTE\Device\GD32F130C6\gd32f1x0_pmu.c)(0x5DAEA934)()
+F (RTE\Device\GD32F130C6\gd32f1x0_rcu.c)(0x5DB30E90)()
+F (RTE\Device\GD32F130C6\gd32f1x0_syscfg.c)(0x5DAEA934)()
+F (RTE\Device\GD32F130C6\gd32f1x0_timer.c)(0x5DB30E90)()
+F (RTE\Device\GD32F130C6\gd32f1x0_usart.c)(0x5DAEA934)()
+F (RTE\Device\GD32F130C6\gd32f1x0_wwdgt.c)(0x5DB30E90)()
+F (RTE\Device\GD32F130C6\startup_gd32f1x0.s)(0x5DAEA934)()
+F (RTE\Device\GD32F130C6\system_gd32f1x0.c)(0x5DB31BAC)()
