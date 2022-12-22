@@ -293,7 +293,7 @@ int8_t engineEncodeTable(int16_t idegress) {
 void engineMosfetTable(void) {
     int16_t degree = engine.degree.degree;
 
-    degree = degree + 90;
+    degree = degree + 60;
 
     if (engine.input.output > 0) {
         degree = degree - 30 + engine.driver.fw;
