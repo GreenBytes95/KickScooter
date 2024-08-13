@@ -151,59 +151,59 @@
   EndStructure
   
   Structure Config_t
-    ;Расположение фаз
+    ; Phase Locations
 		phase.a;
-    ;Тип управления (ENGINE_CONTROL_PWM)
+    ; Control Type (ENGINE_CONTROL_PWM)
     control.a;
-    ;Тип ШИМ подаваемый на двигатель (ENGINE_PWM_SINMOD)
+    ; PWM Type Fed to Engine (ENGINE_PWM_SINMOD)
     pwm.a;
-    ;Установка градусность холлов (ENGINE_HALL_120)
+    ; Setting the degree of halls (ENGINE_HALL_120)
     hall.a;
-    ;Инерция двигателя (TRUE)
+    ; Motor Inertia (TRUE)
     inertion.a;
-    ;Сторона движения двигателя
+    ; Engine Travel Side
     reverse.a;
-    ;Кол-во магнитов
+    ; Number of magnets
     magnet.a;
-    ;Ослабление поля (FALSE)
+    ; Field Attenuation (FALSE)
     fw.a;
-    ;Максимальный угол опережения
+    ; Maximum advance angle
     fwcorner.a;
-    ;Максимальный ток ослабления
+    ; Maximum attenuation current
     fwcurrent.w;
-    ;С каких оборотов начнет работать ослабление поля
+    ; At what speed will the field decay start working?
     fwturn.w;
-    ;Максимальный фазный ток в А
+    ; Maximum phase current in A
     phaseCurrent.w;
-    ;Максимальный общий ток в А
+    ; Maximum Total Current in A
     current.w;
-    ;Максимальные обороты
+    ; Maximum Speed
     turnMax.w;
-    ;Максимальный ток торможения
+    ; Maximum braking current
     brakeCurrent.w
-    ;Диаметр колеса
+    ; Wheel diameter
     wheelDiameter.w
-    ;Минимальная позиция аналогово задания в попугаях
+    ; The minimum position of the analog task in parrots
     throttleMin.w;
-    ;Максимальная позиция аналогово задания в попугаях
+    ; Maximum position of the analog task in parrots
     throttleMax.w;
-    ;Минимальная позиция тормоза в попугаях
+    ; Minimum brake position in parrots
     brakeMin.w;
-    ;Максимальная позиция тормоза в попугаях
+    ; Maximum Brake Position in Parrots
     brakeMax.w;
-    ;Минимальное напряжение (отключает двигатель)
+    ; Minimum voltage (shuts down the motor)
     voltageMin.w;
-    ;Минимальное напряжение для информарования о разряде АКБ
+    ; Minimum voltage for battery discharge information
     voltageMid.w;
-    ;Максимальное напряжение АКБ, информирование о перезаряде
+    ; Maximum battery voltage, overcharge information
     voltageMax.w;
-    ;Плавность задания аналогово задания
+    ; Smoothness of setting analog jobs
     throttlePID.a;
-    ;Плавность срабатывания торможения
+    ; Smooth braking
     breakPID.a;
-    ;Количество попугаев на 1 Вольт
+    ; Number of parrots per 1 Volt
     bitVoltage.w;
-    ;Количество попугаев на 1 Ампер
+    ; Number of parrots per 1 Amp
     bitCurrent.w;
     
     bitByte.a
@@ -232,11 +232,11 @@
   Global connectStatus.l
   Global timerUpdate = ElapsedMilliseconds()
   
-  ;}----------------------------------------------------------
-  ;-       GUI Declare
-  ;{----------------------------------------------------------
+  ;} ----------------------------------------------------------
+  ;- GUI Declare
+  ; {----------------------------------------------------------
   
-  Declare.l Init()
+  Declare Init()
   Declare.l Events()
   Declare.l CatchResource()
   Declare.l ToolBarHideButtonItem(toolbar.l, item.l, hide.l = #True, press.l = #False)
@@ -257,7 +257,7 @@
   Declare.l openListConsoleSENS()
   Declare.l openListConsoleENGINE()
   Declare.l openListControl()
-  ;}----------------------------------------------------------
+  ;} ----------------------------------------------------------
 
 EndDeclareModule
 
@@ -266,15 +266,15 @@ Module GUI
   Procedure.l Init()
     UsePNGImageDecoder()
     CatchResource()
-    initSetting()
+    heatSetting()
     
     If OpenWindow(#WINDOWS_ID, 0, 0, #WINDOWS_WIDTH, #WINDOWS_HEIGHT, #NAME, #PB_Window_SystemMenu | #PB_Window_ScreenCentered)
       If CreateToolBar(#GADGET_TOOLBAR, WindowID(#WINDOWS_ID), #PB_ToolBar_Large | #PB_ToolBar_Text)
-        ToolBarImageButton(#GADGET_TOOLBAR_CONNECT, ImageID(#ICON_CONNECT), #PB_ToolBar_Normal, "Подключиться")
+        ToolBarImageButton(#GADGET_TOOLBAR_CONNECT, ImageID(#ICON_CONNECT), #PB_ToolBar_Normal, "Connect")
         ToolBarImageButton(#GADGET_TOOLBAR_DISCONNECT, ImageID(#ICON_DISCONNECT), #PB_ToolBar_Normal, "Отключится")
         ToolBarSeparator()
         ToolBarImageButton(#GADGET_TOOLBAR_FOLDER, ImageID(#ICON_FOLDER), #PB_ToolBar_Normal, "Открыть")
-        ToolBarImageButton(#GADGET_TOOLBAR_SAVE, ImageID(#ICON_SAVE), #PB_ToolBar_Normal, "Сохранить")
+        ToolBarImageButton(#GADGET_TOOLBAR_SAVE, ImageID(#ICON_SAVE), #PB_ToolBar_Normal, Save)
         ToolBarSeparator()
         ToolBarImageButton(#GADGET_TOOLBAR_CHECK, ImageID(#ICON_CHECK), #PB_ToolBar_Normal, "Записать")
       EndIf
@@ -285,15 +285,15 @@ Module GUI
       
       TreeGadget(#GADGET_TABLIST, 5, 53, 200, #WINDOWS_HEIGHT - 59)
       
-      AddGadgetItem (#GADGET_TABLIST, #GADGET_TABLIST_HOME, "Приветствие", ImageID(#ICON_HOME), 0)
+      AddGadgetItem(#GADGET_TABLIST, #GADGET_TABLIST_HOME, "Приветствие", ImageID(#ICON_HOME), 0)
       
-      AddGadgetItem (#GADGET_TABLIST, #GADGET_TABLIST_CONNECT, "Подключение", ImageID(#ICON_CONNECT), 0)
+      AddGadgetItem (#GADGET_TABLIST, #GADGET_TABLIST_CONNECT, "Connection", ImageID(#ICON_CONNECT), 0)
       
-      AddGadgetItem (#GADGET_TABLIST, #GADGET_TABLIST_CUBE, "Управление", ImageID(#ICON_CUBE), 0)
+      AddGadgetItem (#GADGET_TABLIST, #GADGET_TABLIST_CUBE, Manage, ImageID(#ICON_CUBE), 0)
       
       AddGadgetItem (#GADGET_TABLIST, #GADGET_TABLIST_PARAM, "Конфигурация", ImageID(#ICON_PARAM), 0)
       
-      AddGadgetItem (#GADGET_TABLIST, #GADGET_TABLIST_CONSOLE, "Отладчик", ImageID(#ICON_CONSOLE), 0)
+      AddGadgetItem(#GADGET_TABLIST, #GADGET_TABLIST_CONSOLE, "Отладчик", ImageID(#ICON_CONSOLE), 0)
       
       AddGadgetItem (#GADGET_TABLIST, #GADGET_TABLIST_ADC, "АЦП", ImageID(#ICON_CONSOLE), 1)
       AddGadgetItem (#GADGET_TABLIST, #GADGET_TABLIST_ADC_VOLT, "analogRead(PIN_VBAT)", ImageID(#ICON_CONSOLE), 2)
@@ -301,19 +301,19 @@ Module GUI
       AddGadgetItem (#GADGET_TABLIST, #GADGET_TABLIST_ADC_TH, "analogRead(PIN_THROTTLE)", ImageID(#ICON_CONSOLE), 2)
       AddGadgetItem (#GADGET_TABLIST, #GADGET_TABLIST_ADC_BR, "analogRead(PIN_BRAKE)", ImageID(#ICON_CONSOLE), 2)
       
-      AddGadgetItem (#GADGET_TABLIST, #GADGET_TABLIST_SENS, "Датчики", ImageID(#ICON_CONSOLE), 1)
+      AddGadgetItem(#GADGET_TABLIST, #GADGET_TABLIST_SENS, "Датчики", ImageID(#ICON_CONSOLE), 1)
       AddGadgetItem (#GADGET_TABLIST, #GADGET_TABLIST_SENS_VOLT, "devVoltage()", ImageID(#ICON_CONSOLE), 2)
       AddGadgetItem (#GADGET_TABLIST, #GADGET_TABLIST_SENS_CUR, "devCurrent()", ImageID(#ICON_CONSOLE), 2)
       AddGadgetItem (#GADGET_TABLIST, #GADGET_TABLIST_SENS_TH, "devThrottle()", ImageID(#ICON_CONSOLE), 2)
       AddGadgetItem (#GADGET_TABLIST, #GADGET_TABLIST_SENS_BR, "devBrake()", ImageID(#ICON_CONSOLE), 2)
       
-      AddGadgetItem (#GADGET_TABLIST, #GADGET_TABLIST_ENGINE, "Двигатель", ImageID(#ICON_CONSOLE), 1)
+      AddGadgetItem(#GADGET_TABLIST, #GADGET_TABLIST_ENGINE, "Двигатель", ImageID(#ICON_CONSOLE), 1)
       AddGadgetItem (#GADGET_TABLIST, #GADGET_TABLIST_ENGINE_HALL, "engineDegree()", ImageID(#ICON_CONSOLE), 2)
       AddGadgetItem (#GADGET_TABLIST, #GADGET_TABLIST_ENGINE_TURN, "engineTurnover()", ImageID(#ICON_CONSOLE), 2)
       
       AddGadgetItem (#GADGET_TABLIST, #GADGET_TABLIST_ENGINE_PWM, "engineMosfet()", ImageID(#ICON_CONSOLE), 2)
       
-      AddGadgetItem (#GADGET_TABLIST, #GADGET_TABLIST_SETTING, "Настройки", ImageID(#ICON_PARAM), 0)
+      AddGadgetItem (#GADGET_TABLIST, #GADGET_TABLIST_SETTING, Settings, ImageID(#ICON_PARAM), 0)
       
       ContainerGadget(#GADGET_TAB_HOME, 210, 53, #WINDOWS_WIDTH - 15 - 200, #WINDOWS_HEIGHT - 59, #PB_Container_BorderLess)
         
@@ -321,29 +321,29 @@ Module GUI
       
       ContainerGadget(#GADGET_TAB_CONNECT, 210, 53, #WINDOWS_WIDTH - 15 - 200, #WINDOWS_HEIGHT - 59, #PB_Container_BorderLess)
         ListIconGadget(#GADGET_CONNECT_LIST, 0, 0, #WINDOWS_WIDTH - 15 - 200, #WINDOWS_HEIGHT - 59, "Параметр", 430, #PB_ListIcon_GridLines | #PB_ListIcon_FullRowSelect)
-        AddGadgetColumn(#GADGET_CONNECT_LIST, 1, "Значение", 300)
+        AddGadgetColumn(#GADGET_CONNECT_LIST, 1, "Value", 300)
         openListConnect()
       CloseGadgetList()
       HideGadget(#GADGET_TAB_CONNECT, #True)
       
       ContainerGadget(#GADGET_TAB_SETTING, 210, 53, #WINDOWS_WIDTH - 15 - 200, #WINDOWS_HEIGHT - 59, #PB_Container_BorderLess)
         ListIconGadget(#GADGET_SETTING_LIST, 0, 0, #WINDOWS_WIDTH - 15 - 200, #WINDOWS_HEIGHT - 59, "Параметр", 430, #PB_ListIcon_GridLines | #PB_ListIcon_FullRowSelect)
-        AddGadgetColumn(#GADGET_SETTING_LIST, 1, "Значение", 300)
+        AddGadgetColumn(#GADGET_SETTING_LIST, 1, Value, 300)
         openListSetting()
       CloseGadgetList()
       HideGadget(#GADGET_TAB_SETTING, #True)
       
       ContainerGadget(#GADGET_TAB_PARAM, 210, 53, #WINDOWS_WIDTH - 15 - 200, #WINDOWS_HEIGHT - 59, #PB_Container_BorderLess)
         ListIconGadget(#GADGET_PARAM_LIST, 0, 0, #WINDOWS_WIDTH - 15 - 200, #WINDOWS_HEIGHT - 59, "Параметр", 430, #PB_ListIcon_GridLines | #PB_ListIcon_FullRowSelect)
-        AddGadgetColumn(#GADGET_PARAM_LIST, 1, "Значение", 280)
+        AddGadgetColumn(#GADGET_PARAM_LIST, 1, "Value", 280)
         openListConfig()
       CloseGadgetList()
       HideGadget(#GADGET_TAB_PARAM, #True)
       
       ContainerGadget(#GADGET_TAB_CONSOLE_ADC, 210, 53, #WINDOWS_WIDTH - 15 - 200, #WINDOWS_HEIGHT - 59, #PB_Container_BorderLess)
         ListIconGadget(#GADGET_CONSOLE_ADC_LIST, 0, 0, #WINDOWS_WIDTH - 15 - 200, #WINDOWS_HEIGHT - 59, "Процедура", 200, #PB_ListIcon_GridLines | #PB_ListIcon_FullRowSelect)
-        AddGadgetColumn(#GADGET_CONSOLE_ADC_LIST, 1, "Описание", 400)
-        AddGadgetColumn(#GADGET_CONSOLE_ADC_LIST, 2, "Значение", 120)
+        AddGadgetColumn(#GADGET_CONSOLE_ADC_LIST, 1, "Description", 400)
+        AddGadgetColumn(#GADGET_CONSOLE_ADC_LIST, 2, Value, 120)
         openListConsoleADC()
       CloseGadgetList()
       HideGadget(#GADGET_TAB_CONSOLE_ADC, #True)
@@ -370,8 +370,8 @@ Module GUI
       
       ContainerGadget(#GADGET_TAB_CONSOLE_SENS, 210, 53, #WINDOWS_WIDTH - 15 - 200, #WINDOWS_HEIGHT - 59, #PB_Container_BorderLess)
         ListIconGadget(#GADGET_CONSOLE_SENS_LIST, 0, 0, #WINDOWS_WIDTH - 15 - 200, #WINDOWS_HEIGHT - 59, "Процедура", 200, #PB_ListIcon_GridLines | #PB_ListIcon_FullRowSelect)
-        AddGadgetColumn(#GADGET_CONSOLE_SENS_LIST, 1, "Описание", 400)
-        AddGadgetColumn(#GADGET_CONSOLE_SENS_LIST, 2, "Значение", 120)
+        AddGadgetColumn(#GADGET_CONSOLE_SENS_LIST, 1, "Description", 400)
+        AddGadgetColumn(#GADGET_CONSOLE_SENS_LIST, 2, "Value", 120)
         openListConsoleSENS()
       CloseGadgetList()
       HideGadget(#GADGET_TAB_CONSOLE_SENS, #True)
@@ -398,8 +398,8 @@ Module GUI
       
       ContainerGadget(#GADGET_TAB_CONSOLE_ENGINE, 210, 53, #WINDOWS_WIDTH - 15 - 200, #WINDOWS_HEIGHT - 59, #PB_Container_BorderLess)
         ListIconGadget(#GADGET_CONSOLE_ENGINE_LIST, 0, 0, #WINDOWS_WIDTH - 15 - 200, #WINDOWS_HEIGHT - 59, "Процедура", 200, #PB_ListIcon_GridLines | #PB_ListIcon_FullRowSelect)
-        AddGadgetColumn(#GADGET_CONSOLE_ENGINE_LIST, 1, "Описание", 400)
-        AddGadgetColumn(#GADGET_CONSOLE_ENGINE_LIST, 2, "Значение", 120)
+        AddGadgetColumn(#GADGET_CONSOLE_ENGINE_LIST, 1, "Description", 400)
+        AddGadgetColumn(#GADGET_CONSOLE_ENGINE_LIST, 2, Value, 120)
         openListConsoleENGINE()
       CloseGadgetList()
       HideGadget(#GADGET_TAB_CONSOLE_ENGINE, #True)
@@ -411,14 +411,14 @@ Module GUI
       
       ContainerGadget(#GADGET_TAB_CONTROL, 210, 53, #WINDOWS_WIDTH - 15 - 200, #WINDOWS_HEIGHT - 59, #PB_Container_BorderLess)
         ListIconGadget(#GADGET_CONTROL_LIST, 0, 0, #WINDOWS_WIDTH - 15 - 200, #WINDOWS_HEIGHT - 59 - 120, "Параметр", 430, #PB_ListIcon_GridLines | #PB_ListIcon_FullRowSelect)
-        AddGadgetColumn(#GADGET_CONTROL_LIST, 1, "Значение", 280)
-        CheckBoxGadget(#GADGET_CONTROL_REMOTE,   10,  380, 250, 20, "Удаленное управление")
-        CheckBoxGadget(#GADGET_CONTROL_ENGINE,   10,  400, 250, 20, "Активация двигателя")
-        CheckBoxGadget(#GADGET_CONTROL_REVERSE,  10,  420, 250, 20, "Реверс управления")
-        TextGadget    (#GADGET_CONTROL_THROTTLE_T, 10,  440, ((#WINDOWS_WIDTH - 15 - 200) - 20) / 2, 20, "Управление газом", #PB_Text_Center)
+        AddGadgetColumn(#GADGET_CONTROL_LIST, 1, "Value", 280)
+        CheckBoxGadget(#GADGET_CONTROL_REMOTE, 10, 380, 250, 20, "Remote Control")
+        CheckBoxGadget(#GADGET_CONTROL_ENGINE, 10, 400, 250, 20, "Engine Activation")
+        CheckBoxGadget(#GADGET_CONTROL_REVERSE, 10, 420, 250, 20, "Reverse Control")
+        TextGadget (#GADGET_CONTROL_THROTTLE_T, 10, 440, ((#WINDOWS_WIDTH - 15 - 200) - 20) / 2, 20, "Gas Control", #PB_Text_Center)
         TrackBarGadget(#GADGET_CONTROL_THROTTLE,    10,  460, ((#WINDOWS_WIDTH - 15 - 200) - 20) / 2, 20, 0, 100)
         
-        TextGadget    (#GADGET_CONTROL_BRAKE_T, 10 + ((#WINDOWS_WIDTH - 15 - 200) - 20) / 2,  440,((#WINDOWS_WIDTH - 15 - 200) - 20) / 2, 20, "Управление торможением", #PB_Text_Center)
+        TextGadget (#GADGET_CONTROL_BRAKE_T, 10 + ((#WINDOWS_WIDTH - 15 - 200) - 20) / 2, 440,((#WINDOWS_WIDTH - 15 - 200) - 20) / 2, 20, "Brake Control", #PB_Text_Center)
         TrackBarGadget(#GADGET_CONTROL_BRAKE, 10 + ((#WINDOWS_WIDTH - 15 - 200) - 20) / 2,  460,((#WINDOWS_WIDTH - 15 - 200) - 20) / 2, 20, 0, 100)
         
         openListControl()
@@ -447,7 +447,7 @@ Module GUI
             If Connect\device = #DEV_RS232
               If dataPackage::open(Connect\comPort, Connect\timeout)
                 dataPackage::VERSION()
-                Connect\version   = dataPackage::boardVersion()
+                Connect\version = dataPackage::boardVersion()
                 If Connect\version > 0
                   Connect\flash     = dataPackage::flashAdress()
                   Connect\flashmax  = dataPackage::flashMax()
@@ -475,15 +475,15 @@ Module GUI
             
             If Connect\status = #True
               If Connect\device = #DEV_RS232
-                MessageRequester(#NAME, "Подключение к устройству выполненно успешно", #PB_MessageRequester_Info)
+                MessageRequester(#NAME, "Device Connection Successful", #PB_MessageRequester_Info)
               EndIf
               If Connect\device = #DEV_STLINK
-                MessageRequester(#NAME, "Подключение к устройству выполненно успешно" + #CRLF$ + #CRLF$ + "ВНИМАНИЕ!" + #CRLF$ + "В режиме подключения ST-LINK возможно только редактировать конфигурацию", #PB_MessageRequester_Info)
+                MessageRequester(#NAME, "Device connection successful" + #CRLF$ + #CRLF$ + "WARNING!" + #CRLF$ + "In ST-LINK connection mode, only configuration editing is possible", #PB_MessageRequester_Info)
               EndIf
               ToolBarHideButtonItem(#GADGET_TOOLBAR, #GADGET_TOOLBAR_CONNECT, #True)
               ToolBarHideButtonItem(#GADGET_TOOLBAR, #GADGET_TOOLBAR_DISCONNECT, #False, #True)
             Else
-              MessageRequester(#NAME, "Подключение к устройству НЕ выполнено." + #CRLF$ + "Проверьте подключение программатора к плате", #PB_MessageRequester_Error)
+              MessageRequester(#NAME, "Connected to the device FAILED." + #CRLF$ + "Check that the box is connected to the board", #PB_MessageRequester_Error)
             EndIf
           Case #GADGET_TOOLBAR_DISCONNECT
             If Connect\device = #DEV_RS232
@@ -502,9 +502,9 @@ Module GUI
               If Connect\device = #DEV_STLINK
                 stlink::flashWriteBuffer((Connect\flash + Connect\flashmax) - (SizeOf(Config_t) + 4), @Config, SizeOf(Config_t) - 1, Connect\timeout)
               EndIf
-              MessageRequester("Запись конфигурации", "Запись конфигурации выполнена успешно", #PB_MessageRequester_Info)
+              MessageRequester("Configuration Capture", "Configuration Capture Successful", #PB_MessageRequester_Info)
             Else
-              MessageRequester("Запись конфигурации", "Для записи конфигурации выполните подключение к устройству", #PB_MessageRequester_Error)
+              MessageRequester("Write Configuration", "Connect to Device to Write Configuration", #PB_MessageRequester_Error)
             EndIf
         EndSelect
       Case #PB_Event_Gadget
@@ -641,24 +641,24 @@ Module GUI
   EndProcedure
   
   Procedure.l CatchResource()
-    CatchImage(#ICON_CONNECT,         ?ICON_CONNECT)
-    CatchImage(#ICON_DISCONNECT,      ?ICON_DISCONNECT)
-    CatchImage(#ICON_SIN,             ?ICON_SIN)
-    CatchImage(#ICON_PARAM,           ?ICON_PARAM)
-    CatchImage(#ICON_TABLE,           ?ICON_TABLE)
-    CatchImage(#ICON_CONSOLE,         ?ICON_CONSOLE)
-    CatchImage(#ICON_HOME,            ?ICON_HOME)
-    CatchImage(#ICON_CUBE,            ?ICON_CUBE)
-    CatchImage(#ICON_SAVE,            ?ICON_SAVE)
-    CatchImage(#ICON_FOLDER,          ?ICON_FOLDER)
-    CatchImage(#ICON_CHECK,           ?ICON_CHECK)
+    CatchImage(#ICON_CONNECT,         ? ICON_CONNECT)
+    CatchImage(#ICON_DISCONNECT,      ? ICON_DISCONNECT)
+    CatchImage(#ICON_SIN,             ? ICON_SIN)
+    CatchImage(#ICON_PARAM,           ? ICON_PARAM)
+    CatchImage(#ICON_TABLE,           ? ICON_TABLE)
+    CatchImage(#ICON_CONSOLE,         ? ICON_CONSOLE)
+    CatchImage(#ICON_HOME,            ? ICON_HOME)
+    CatchImage(#ICON_CUBE,            ? ICON_CUBE)
+    CatchImage(#ICON_SAVE,            ? ICON_SAVE)
+    CatchImage(#ICON_FOLDER,          ? ICON_FOLDER)
+    CatchImage(#ICON_CHECK,           ? ICON_CHECK)
     
     LoadFont(#FONT_CONSOLAS, "Consolas", 9)
   EndProcedure
   
   Procedure.l ToolBarHideButtonItem(toolbar.l, item.l, hide.l = #True, press.l = #False)
     Protected htb=ToolBarID(toolbar)
-    Protected tbbi.TBBUTTONINFO
+    Protected tbbi. TBBUTTONINFO
     tbbi\cbSize = SizeOf(TBBUTTONINFO)
     tbbi\dwMask = #TBIF_BYINDEX | #TBIF_STATE
     If hide = #True
@@ -834,7 +834,7 @@ Module GUI
       in$ = InputRequester(GetGadgetItemText(gadget, pindex), "Введите значение от " + Str(arrayData(colum, pindex)\min) + " до " + Str(arrayData(colum, pindex)\max), GetGadgetItemText(gadget, pindex, 1))
       pval = Val(in$)
       If pval < arrayData(colum, pindex)\min Or pval > arrayData(colum, pindex)\max Or (pval = 0 And in$ <> "0")
-        MessageRequester("Ошибка", "Значение не соотвествует требуемым параметрам", #PB_MessageRequester_Error)
+        MessageRequester("Error", "Value does not meet the required parameters", #PB_MessageRequester_Error)
       Else
         SetGadgetItemText(gadget, pindex, Str(pval), 1)
         
@@ -849,7 +849,7 @@ Module GUI
       in$ = InputRequester(GetGadgetItemText(gadget, pindex), "Введите значение от " + Str(arrayData(colum, pindex)\min) + " до " + Str(arrayData(colum, pindex)\max), GetGadgetItemText(gadget, pindex, 1))
       pval = Val(in$)
       If pval < arrayData(colum, pindex)\min Or pval > arrayData(colum, pindex)\max Or (pval = 0 And in$ <> "0")
-        MessageRequester("Ошибка", "Значение не соотвествует требуемым параметрам", #PB_MessageRequester_Error)
+        MessageRequester("Error", "Value does not meet the required parameters", #PB_MessageRequester_Error)
       Else
         SetGadgetItemText(gadget, pindex, Str(pval), 1)
         
@@ -865,7 +865,7 @@ Module GUI
       in$ = InputRequester(GetGadgetItemText(gadget, pindex), "Введите значение от " + Str(arrayData(colum, pindex)\min) + " до " + Str(arrayData(colum, pindex)\max), GetGadgetItemText(gadget, pindex, 1))
       pval = Val(ReplaceString(in$, ".", ""))
       If pval < arrayData(colum, pindex)\min Or pval > arrayData(colum, pindex)\max Or (pval = 0 And in$ <> "0")
-        MessageRequester("Ошибка", "Значение не соотвествует требуемым параметрам", #PB_MessageRequester_Error)
+        MessageRequester("Error", "Value does not meet the required parameters", #PB_MessageRequester_Error)
       Else
         If pval > 9
           in$ = Left(Str(pval), Len(Str(pval)) - 1) + "." + Right(Str(pval), 1)
@@ -964,15 +964,15 @@ Module GUI
   Procedure.l openListConnect()
     ClearGadgetItems(#GADGET_CONNECT_LIST)
     
-    AddListItem(#GADGET_CONNECT_LIST, #TYPE_BLOCK,      0, 0, "Настройка подключения")
+    AddListItem(#GADGET_CONNECT_LIST, #TYPE_BLOCK, 0, 0, "Configure Connection")
     AddListItem(#GADGET_CONNECT_LIST, #TYPE_LIST,       @Connect\device,    0, "Устройство связи",  "ST-LINK|RS232", Connect\device, 0, 0, "Connect::device")
     AddListItem(#GADGET_CONNECT_LIST, #TYPE_INT8T,      @Connect\timeout,   0, "Время ожидания соединения (сек)",     Str(Connect\timeout), 0, 0, 250, "Connect::timeout")
-    AddListItem(#GADGET_CONNECT_LIST, #TYPE_INT8T,      @Connect\comPort,   0, "Порт COM",          Str(Connect\comPort), 0, 0, 100, "Connect::comPort")
+    AddListItem(#GADGET_CONNECT_LIST, #TYPE_INT8T, @Connect\comPort, 0, "Порт COM", Str(Connect\comPort), 0, 0, 100, "Connect::comPort")
     
-    AddListItem(#GADGET_CONNECT_LIST, #TYPE_BLOCK,      0, 0, "Настройка платы")
-    AddListItem(#GADGET_CONNECT_LIST, #TYPE_INT8T,      @Connect\version,   0, "Номер платы",       Str(Connect\version), 0, 0, 100, "Connect::version")
-    AddListItem(#GADGET_CONNECT_LIST, #TYPE_BLOCK,      0, 0, "Настройка доступа процессора")
-    AddListItem(#GADGET_CONNECT_LIST, #TYPE_INT32HEX,   @Connect\flash,     0, "Адрес Flash памяти", "", 0, 0, 0, "Connect::flash")
+    AddListItem(#GADGET_CONNECT_LIST, #TYPE_BLOCK, 0, 0, "Board Settings")
+    AddListItem(#GADGET_CONNECT_LIST, #TYPE_INT8T, @Connect\version, 0, "Номер платы", Str(Connect\version), 0, 0, 100, "Connect::version")
+    AddListItem(#GADGET_CONNECT_LIST, #TYPE_BLOCK, 0, 0, "Configure Processor Access")
+    AddListItem(#GADGET_CONNECT_LIST, #TYPE_INT32HEX, @Connect\flash, 0, "Address Flash Text", "", 0, 0, 0, "Connect::flash")
     AddListItem(#GADGET_CONNECT_LIST, #TYPE_INT32HEX,   @Connect\flashmax,  0, "Размер Flash памяти", "", 0, 0, 0, "Connect::flashmax")
   EndProcedure
   
@@ -983,49 +983,49 @@ Module GUI
   Procedure.l openListConfig()
     ClearGadgetItems(#GADGET_PARAM_LIST)
     
-    AddListItem(#GADGET_PARAM_LIST, #TYPE_BLOCK,      0,                    2, "Настройка управления")
-    AddListItem(#GADGET_PARAM_LIST, #TYPE_LIST,       @Config\pwm,          2, "Тип управления двигателем",  "Синус|Меандр", Config\pwm)
-    AddListItem(#GADGET_PARAM_LIST, #TYPE_LIST,       @Config\control,      2, "Тип задания",  "Напряжение|Ток|Обороты", Config\control)
-    AddListItem(#GADGET_PARAM_LIST, #TYPE_LIST,       @Config\hall,         2, "Тип холлов двигателя",  "120|60", Config\hall)
-    AddListItem(#GADGET_PARAM_LIST, #TYPE_LIST,       @Config\reverse,      2, "Направление вращения двигателя",  "По умолчанию|Инвертированое", Config\reverse)
-    AddListItem(#GADGET_PARAM_LIST, #TYPE_LIST,       @Config\inertion,     2, "Инерция двигателя",  "Отключено|Включено", Config\inertion)
-    AddListItem(#GADGET_PARAM_LIST, #TYPE_INT8T,      @Config\phase,        2, "Расположение фаз",  Str(Config\phase), 0, 0, 5)
+    AddListItem(#GADGET_PARAM_LIST, #TYPE_BLOCK, 0, 2, "Manage Settings")
+    AddListItem(#GADGET_PARAM_LIST, #TYPE_LIST, @Config\pwm, 2, Engine Control Type, Sine|Meander, Config\pwm)
+    AddListItem(#GADGET_PARAM_LIST, #TYPE_LIST, @Config\control, 2, "Job Type", "Voltage|Current|RPM", Config\control)
+    AddListItem(#GADGET_PARAM_LIST, #TYPE_LIST, @Config\hall, 2, "Engine Hall Type", "120|60", Config\hall)
+    AddListItem(#GADGET_PARAM_LIST, #TYPE_LIST, @Config\reverse, 2, Motor Direction, Default|Inverted, Config\reverse)
+    AddListItem(#GADGET_PARAM_LIST, #TYPE_LIST, @Config\inertion, 2, Engine Inertia, Disabled|Enabled, Config\inertion)
+    AddListItem(#GADGET_PARAM_LIST, #TYPE_INT8T, @Config\phase, 2, "Phase Arrangement", Str(Config\phase), 0, 0, 5)
     
-    AddListItem(#GADGET_PARAM_LIST, #TYPE_BLOCK,      0,                    2, "Настройка двигателя")
-    AddListItem(#GADGET_PARAM_LIST, #TYPE_FINT16T,    @Config\current,      2, "Максимальный общий ток",  Str(Config\current), 0, 0, 1000)
-    AddListItem(#GADGET_PARAM_LIST, #TYPE_FINT16T,    @Config\phaseCurrent, 2, "Максимальный фазный ток",  Str(Config\phaseCurrent), 0, 0, 1000)
-    AddListItem(#GADGET_PARAM_LIST, #TYPE_INT8T,      @Config\magnet,       2, "Кол-во магнитов",  Str(Config\magnet), 0, 0, 250)
-    AddListItem(#GADGET_PARAM_LIST, #TYPE_INT16T,     @Config\turnMax,      2, "Максимальные обороты",  Str(Config\turnMax), 0, 0, 10000)
-    AddListItem(#GADGET_PARAM_LIST, #TYPE_FINT16T,    @Config\wheelDiameter,2, "Диаметр колеса",  Str(Config\wheelDiameter), 0, 0, 1000)
+    AddListItem(#GADGET_PARAM_LIST, #TYPE_BLOCK, 0, 2, "Engine Setup")
+    AddListItem(#GADGET_PARAM_LIST, #TYPE_FINT16T, @Config\current, 2, "Максимальный общий ток", Str(Config\current), 0, 0, 1000)
+    AddListItem (#GADGET_PARAM_LIST, #TYPE_FINT16T, @Config\phaseCurrent, 2, "Максимальный фазный ток", Str (Config\phaseCurrent), 0, 0, 1000)
+    AddListItem(#GADGET_PARAM_LIST, #TYPE_INT8T, @Config\magnet, 2, "Кол-во магнитов", Str(Config\magnet), 0, 0, 250)
+    AddListItem(#GADGET_PARAM_LIST, #TYPE_INT16T, @Config\turnMax, 2, "Maximum RPM", Str(Config\turnMax), 0, 0, 10000)
+    AddListItem(#GADGET_PARAM_LIST, #TYPE_FINT16T, @Config\wheelDiameter,2, "Диаметр колеса", Str(Config\wheelDiameter), 0, 0, 1000)
     
     
-    AddListItem(#GADGET_PARAM_LIST, #TYPE_BLOCK,      0,                    2, "Управление курком газа")
-    AddListItem(#GADGET_PARAM_LIST, #TYPE_INT16T,     @Config\throttleMin,  2, "Минимальное положение курка газа",  Str(Config\throttleMin), 0, 0, 4096)
-    AddListItem(#GADGET_PARAM_LIST, #TYPE_INT16T,     @Config\throttleMax,  2, "Максимальное положение курка газа",  Str(Config\throttleMax), 0, 0, 4096)
+    AddListItem(#GADGET_PARAM_LIST, #TYPE_BLOCK, 0, 2, "Throttle Trigger Control")
+    AddListItem(#GADGET_PARAM_LIST, #TYPE_INT16T, @Config\throttleMin, 2, "Minimum throttle trigger position", Str(Config\throttleMin), 0, 0, 4096)
+    AddListItem(#GADGET_PARAM_LIST, #TYPE_INT16T, @Config\throttleMax, 2, "Maximum throttle trigger position", Str(Config\throttleMax), 0, 0, 4096)
     
-    AddListItem(#GADGET_PARAM_LIST, #TYPE_BLOCK,      0,                    2, "Управление курком тормоза")
-    AddListItem(#GADGET_PARAM_LIST, #TYPE_INT16T,     @Config\brakeMin,     2, "Минимальное положение курка тормоза",  Str(Config\brakeMin), 0, 0, 4096)
-    AddListItem(#GADGET_PARAM_LIST, #TYPE_INT16T,     @Config\brakeMax,     2, "Максимальное положение курка тормоза",  Str(Config\brakeMax), 0, 0, 4096)
-    AddListItem(#GADGET_PARAM_LIST, #TYPE_FINT16T,    @Config\brakeCurrent, 2, "Максимальный ток рекуперации",  Str(Config\brakeCurrent), 0, 0, 1000)
+    AddListItem(#GADGET_PARAM_LIST, #TYPE_BLOCK, 0, 2, "Brake Trigger Control")
+    AddListItem(#GADGET_PARAM_LIST, #TYPE_INT16T, @Config\brakeMin, 2, "Minimum Brake Trigger Position", Str(Config\brakeMin), 0, 0, 4096)
+    AddListItem(#GADGET_PARAM_LIST, #TYPE_INT16T, @Config\brakeMax, 2, "Maximum Brake Trigger Position", Str(Config\brakeMax), 0, 0, 4096)
+    AddListItem(#GADGET_PARAM_LIST, #TYPE_FINT16T, @Config\brakeCurrent, 2, "Максимальный ток рекуперации", Str(Config\brakeCurrent), 0, 0, 1000)
     
-    AddListItem(#GADGET_PARAM_LIST, #TYPE_BLOCK,      0,                    2, "Ослабление поля")
-    AddListItem(#GADGET_PARAM_LIST, #TYPE_LIST,       @Config\fw,           2, "Ослабление поля",  "Отключено|Включено", Config\fw)
-    AddListItem(#GADGET_PARAM_LIST, #TYPE_INT8T,      @Config\fwcorner,     2, "Максимальный угол опережения",  Str(Config\fwcorner), 0, 1, 30)
-    AddListItem(#GADGET_PARAM_LIST, #TYPE_FINT16T,    @Config\fwcurrent,    2, "Максимальный ток ослабления поля",  Str(Config\fwcurrent), 0, 0, 1000)
-    AddListItem(#GADGET_PARAM_LIST, #TYPE_INT16T,     @Config\fwturn,       2, "Минимальные обороты сработки ослабления поля",  Str(Config\fwturn), 0, 0, 10000)
+    AddListItem(#GADGET_PARAM_LIST, #TYPE_BLOCK, 0, 2, "Loosen Field")
+    AddListItem(#GADGET_PARAM_LIST, #TYPE_LIST, @Config\fw, 2, Field Attenuation, Disabled|Enabled, Config\fw)
+    AddListItem(#GADGET_PARAM_LIST, #TYPE_INT8T, @Config\fwcorner, 2, "Maximum Advance Angle", Str(Config\fwcorner), 0, 1, 30)
+    AddListItem(#GADGET_PARAM_LIST, #TYPE_FINT16T, @Config\fwcurrent, 2, "Maximum Field Attenuation Current", Str(Config\fwcurrent), 0, 0, 1000)
+    AddListItem(#GADGET_PARAM_LIST, #TYPE_INT16T, @Config\fwturn, 2, "Minimum Field Attenuation Speeds", Str(Config\fwturn), 0, 0, 10000)
     
-    AddListItem(#GADGET_PARAM_LIST, #TYPE_BLOCK,      0,                    2, "Настройка аккумулятора")
-    AddListItem(#GADGET_PARAM_LIST, #TYPE_FINT16T,    @Config\voltageMin,   2, "Минимальное напряжение аккумулятора",  Str(Config\voltageMin), 0, 0, 1000)
-    AddListItem(#GADGET_PARAM_LIST, #TYPE_FINT16T,    @Config\voltageMid,   2, "Среднее напряжение аккумулятора",  Str(Config\voltageMid), 0, 0, 1000)
-    AddListItem(#GADGET_PARAM_LIST, #TYPE_FINT16T,    @Config\voltageMax,   2, "Максимальное напряжение аккумулятора",  Str(Config\voltageMax), 0, 0, 1000)
+    AddListItem(#GADGET_PARAM_LIST, #TYPE_BLOCK, 0, 2, "Battery Settings")
+    AddListItem(#GADGET_PARAM_LIST, #TYPE_FINT16T, @Config\voltageMin, 2, "Minimum Battery Voltage", Str(Config\voltageMin), 0, 0, 1000)
+    AddListItem(#GADGET_PARAM_LIST, #TYPE_FINT16T, @Config\voltageMid, 2, "Среднее напряжение аккумулятора", Str(Config\voltageMid), 0, 0, 1000)
+    AddListItem(#GADGET_PARAM_LIST, #TYPE_FINT16T, @Config\voltageMax, 2, "Maximum Battery Voltage", Str(Config\voltageMax), 0, 0, 1000)
     
-    AddListItem(#GADGET_PARAM_LIST, #TYPE_BLOCK,      0,                    2, "Управление плавностью")
-    AddListItem(#GADGET_PARAM_LIST, #TYPE_INT8T,      @Config\throttlePID,  2, "Плавность ручки газа",  Str(Config\throttlePID), 0, 1, 10)
-    AddListItem(#GADGET_PARAM_LIST, #TYPE_INT8T,      @Config\breakPID,     2, "Плавность ручки тормоза",  Str(Config\breakPID), 0, 1, 10)
+    AddListItem(#GADGET_PARAM_LIST, #TYPE_BLOCK, 0, 2, "Fade Control")
+    AddListItem(#GADGET_PARAM_LIST, #TYPE_INT8T, @Config\throttlePID, 2, "Плавность ручки газа", Str(Config\throttlePID), 0, 1, 10)
+    AddListItem(#GADGET_PARAM_LIST, #TYPE_INT8T, @Config\breakPID, 2, "Brake handle smoothness", Str(Config\breakPID), 0, 1, 10)
     
-    AddListItem(#GADGET_PARAM_LIST, #TYPE_BLOCK,      0,                    2, "Настройка датчиков")
-    AddListItem(#GADGET_PARAM_LIST, #TYPE_INT16T,     @Config\bitVoltage,   2, "Количество отсчетов для вычисления напряжения",  Str(Config\bitVoltage), 0, 0, 10000)
-    AddListItem(#GADGET_PARAM_LIST, #TYPE_INT16T,     @Config\bitCurrent,   2, "Количество отсчетов для вычисления тока",  Str(Config\bitCurrent), 0, 0, 10000)
+    AddListItem(#GADGET_PARAM_LIST, #TYPE_BLOCK, 0, 2, "Configuring Sensors")
+    AddListItem(#GADGET_PARAM_LIST, #TYPE_INT16T, @Config\bitVoltage, 2, "Number of Samples for Voltage Calculation", Str(Config\bitVoltage), 0, 0, 10000)
+    AddListItem(#GADGET_PARAM_LIST, #TYPE_INT16T, @Config\bitCurrent, 2, "Count of Counts for Current Calculation", Str(Config\bitCurrent), 0, 0, 10000)
   EndProcedure
   
   Procedure.l openListConsoleADC()
@@ -1057,52 +1057,52 @@ Module GUI
     AddListItem(#GADGET_CONSOLE_ENGINE_LIST, #TYPE_INT8T, dataPackage::@recvPackage\BLDC\PIN_HALL_B,    5, "digitalRead(PIN_HALL_B)|Холл B",  Str(dataPackage::recvPackage\BLDC\PIN_HALL_B), 0, 0, 0)
     AddListItem(#GADGET_CONSOLE_ENGINE_LIST, #TYPE_INT8T, dataPackage::@recvPackage\BLDC\PIN_HALL_C,    5, "digitalRead(PIN_HALL_C)|Холл C",  Str(dataPackage::recvPackage\BLDC\PIN_HALL_C), 0, 0, 0)
     
-    AddListItem(#GADGET_CONSOLE_ENGINE_LIST, #TYPE_BLOCK,      0,                    5, "|ШИМ двигателя")
-    AddListItem(#GADGET_CONSOLE_ENGINE_LIST, #TYPE_INT16T, dataPackage::@recvPackage\BLDC\engineCurrentPWM, 5, "engineCurrentPWM()|Скважность сигнала ШИМ Общий",  Str(dataPackage::recvPackage\BLDC\engineCurrentPWM), 0, 0, 0)
-    AddListItem(#GADGET_CONSOLE_ENGINE_LIST, #TYPE_INT8T, dataPackage::@recvPackage\MOSFET\TIMER_BLDC_A,    5, "engineMosfet(TIMER_BLDC_A)|Скважность сигнала ШИМ А",  Str(dataPackage::recvPackage\MOSFET\TIMER_BLDC_A), 0, 0, 0)
-    AddListItem(#GADGET_CONSOLE_ENGINE_LIST, #TYPE_INT8T, dataPackage::@recvPackage\MOSFET\TIMER_BLDC_B,    5, "engineMosfet(TIMER_BLDC_B)|Скважность сигнала ШИМ B",  Str(dataPackage::recvPackage\MOSFET\TIMER_BLDC_B), 0, 0, 0)
-    AddListItem(#GADGET_CONSOLE_ENGINE_LIST, #TYPE_INT8T, dataPackage::@recvPackage\MOSFET\TIMER_BLDC_C,    5, "engineMosfet(TIMER_BLDC_C)|Скважность сигнала ШИМ C",  Str(dataPackage::recvPackage\MOSFET\TIMER_BLDC_C), 0, 0, 0)
+    AddListItem(#GADGET_CONSOLE_ENGINE_LIST, #TYPE_BLOCK, 0, 5, "|PWM Engine")
+    AddListItem (#GADGET_CONSOLE_ENGINE_LIST, #TYPE_INT16T, dataPackage::@recvPackage\BLDC\engineCurrentPWM, 5, "EngineCurrentPWM()|⬂э¦¦¦¦¦¦¦¦¦¦j¦¦ Other dataPackage:re lifePackage\BLDC\engineCurrentPWM), 0, 0, 0)
+    AddListItem(#GADGET_CONSOLE_ENGINE_LIST, #TYPE_INT8T, dataPackage::@recvPackage\MOSFET\TIMER_BLDC_A, 5, "engineMosfet(TIMER_BLDC_A)|Скважность сигнала ШИМ А", Str(dataPackage::recvPackage\MOSFET\TIMER_BLDC_A), 0, 0, 0)
+    AddListItem(#GADGET_CONSOLE_ENGINE_LIST, #TYPE_INT8T, dataPackage::@recvPackage\MOSFET\TIMER_BLDC_B, 5, "engineMosfet(TIMER_BLDC_B)|Скважность сϲ сϲгнала ШИМ B", Str(dataPackage::recvPackage\MOSFET\TIMER_BLDC_B), 0, 0, 0)
+    AddListItem(#GADGET_CONSOLE_ENGINE_LIST, #TYPE_INT8T, dataPackage::@recvPackage\MOSFET\TIMER_BLDC_C, 5, "engineMosfet(TIMER_BLDC_C)|Скважность с⨸гнала ШИМ C", Str(dataPackage::recvPackage\MOSFET\TIMER_BLDC_C), 0, 0, 0)
   EndProcedure
   
   Procedure.l openListControl()
     ClearGadgetItems(#GADGET_CONTROL_LIST)
     
-    AddListItem(#GADGET_CONTROL_LIST, #TYPE_BLOCK, 0, 6, "Выходные параметры")
+    AddListItem(#GADGET_CONTROL_LIST, #TYPE_BLOCK, 0, 6, "Output Parameters")
     
     AddListItem(#GADGET_CONTROL_LIST, #TYPE_FINT16T, dataPackage::@recvPackage\CONTROL\voltage,       6, "Напряжение",  Str(dataPackage::recvPackage\CONTROL\voltage), 0, 0, 0)
     AddListItem(#GADGET_CONTROL_LIST, #TYPE_FINT16T, dataPackage::@recvPackage\CONTROL\current,       6, "Датчик тока",  Str(dataPackage::recvPackage\CONTROL\current), 0, 0, 0)
     AddListItem(#GADGET_CONTROL_LIST, #TYPE_INT16T, dataPackage::@recvPackage\CONTROL\turnover,        6, "Обороты",  Str(dataPackage::recvPackage\CONTROL\turnover), 0, 0, 0)
     AddListItem(#GADGET_CONTROL_LIST, #TYPE_INT8T, dataPackage::@recvPackage\CONTROL\reverse,         6, "Направление",  Str(dataPackage::recvPackage\CONTROL\reverse), 0, 0, 0)
     
-    AddListItem(#GADGET_CONTROL_LIST, #TYPE_BLOCK, 0, 6, "Входные параметры")
+    AddListItem(#GADGET_CONTROL_LIST, #TYPE_BLOCK, 0, 6, "Input Parameters")
     
-    AddListItem(#GADGET_CONTROL_LIST, #TYPE_INT16T, @conThrottle,       6, "Управление газом",  Str(conThrottle), 0, 0, 0)
+    AddListItem(#GADGET_CONTROL_LIST, #TYPE_INT16T, @conThrottle, 6, "Gas Control", Str(conThrottle), 0, 0, 0)
     AddListItem(#GADGET_CONTROL_LIST, #TYPE_INT16T, dataPackage::@recvPackage\BLDC\engineTurnover,       6, "Управление торможением",  Str(dataPackage::recvPackage\BLDC\engineTurnover), 0, 0, 0)
   EndProcedure
   
   DataSection
     ICON_CONNECT:
-    IncludeBinary "..\Image\connect.png"
+    IncludeBinary ".. \Image\connect.png"
     ICON_DISCONNECT:
-    IncludeBinary "..\Image\disconnect.png"
+    IncludeBinary ".. \Image\disconnect.png"
     ICON_SIN:
-    IncludeBinary "..\Image\sin.png"
+    IncludeBinary ".. \Image\sin.png"
     ICON_PARAM:
-    IncludeBinary "..\Image\param.png"
+    IncludeBinary ".. \Image\param.png"
     ICON_TABLE:
-    IncludeBinary "..\Image\table.png"
+    IncludeBinary ".. \Image\table.png"
     ICON_CONSOLE:
-    IncludeBinary "..\Image\console.png"
+    IncludeBinary ".. \Image\console.png"
     ICON_HOME:
-    IncludeBinary "..\Image\home.png"
+    IncludeBinary ".. \Image\home.png"
     ICON_CUBE:
-    IncludeBinary "..\Image\cube.png"
+    IncludeBinary ".. \Image\cube.png"
     ICON_SAVE:
-    IncludeBinary "..\Image\save.png"
+    IncludeBinary ".. \Image\save.png"
     ICON_FOLDER:
-    IncludeBinary "..\Image\folder.png"
+    IncludeBinary ".. \Image\folder.png"
     ICON_CHECK:
-    IncludeBinary "..\Image\check.png"
+    IncludeBinary ".. \Image\check.png"
   EndDataSection
   
 EndModule
@@ -1111,5 +1111,5 @@ EndModule
 ; FirstLine = 796
 ; Folding = -XgM-
 ; EnableXP
-; Executable = ..\..\bin\KickScooter.exe
+; Executable = .. \.. \bin\KickScooter.exe
 ; CompileSourceDirectory
